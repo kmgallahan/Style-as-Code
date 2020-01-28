@@ -1,5 +1,3 @@
-# Style as Code
-
 Style as Code helps develops produce code with a consistent style.
 
 This is accomplished by spreading awareness and use of [EditorConfig](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) files. In a nutshell:
@@ -33,7 +31,7 @@ The goals are:
 
 The [Microsoft Docs](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) provide a great starting point to learn about EditorConfig files.
 
-As a starting point, Visual Studio [can generate](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019#add-and-remove-editorconfig-files) a `.editorconfig` file populated with the default settings. [This is what it looks like]().
+As a starting point, Visual Studio [can generate](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019#add-and-remove-editorconfig-files) a `.editorconfig` file populated with the default settings. [This is what it looks like](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig_VisualStudioDefaults.md).
 
 The .NET Runtime project relies on these default settings as a baseline. They proceeded to create [a modified `.editorconfig` file](https://github.com/dotnet/runtime/blob/master/.editorconfig) to enforce their specific [Coding Style guidlines](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md).
 
@@ -60,7 +58,7 @@ All of these can follow some common steps.
 2. Include the file in your codebase ([instructions](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019#add-and-remove-editorconfig-files))
 3. Don't ignore IDE warnings & suggestions
 
-Afterwards: 
+Afterwards:
 
 * If you want to know why the EditorConfig is suggesting a certain code style, refer to the information on that subject
 * If you strongly disagree with a setting and/or want to provide feedback, use the discussion link for that setting
@@ -73,7 +71,7 @@ Afterwards:
 ### Contributor to a new project
 
 1. Send a proposal to the project owner to adopt EditorConfig file usage from the start
-2. Provide links to [Code as Style]() and the [Microsoft Docs](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) on EditorConfig
+2. Provide links to [Code as Style](https://kmgallahan.github.io/Style-as-Code/) and the [Microsoft Docs](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) on EditorConfig
 3. Be sure to mention that adopting an EditorConfig from the beginning is easier than implementing one later
 4. Follow the common steps above and be sure to share them with your teammates
 
@@ -133,28 +131,14 @@ This information is presented through markdown pages with associated GitHub issu
 
 ## FAQ
 
-<details>
-<summary>
-<b>
-Q: Why is this project called Style as Code?
-</b>
-</summary>
+**Q: Why is this project called Style as Code?**
 
 A: Similar to [Infrastructure as Code](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code), Style as Code is meant to help manage coding style through a versioned EditorConfig file.
 
-</details>
-
-<details>
-<summary>
-<b>
-Q: What are Roslyn Analyzers?
-</b>
-</summary>
+**Q: What are Roslyn Analyzers?**
 
 A: A key part of implementing code style best practices is [Roslyn Analyzers](https://docs.microsoft.com/visualstudio/code-quality/roslyn-analyzers-overview). These convert EditorConfig settings and theoretical best practices to the squiggles and suggestions shown in your IDE.
 
 Many analyzer packages exist, each containing multiple individual analyzers. One goal of this project is to map analyzers to a best practice page that discusses their usage.
 
 This allows develops to easily search by analyzer ID (e.g. IDE0003) to find the best practices information on that topic.
-
-</details>
