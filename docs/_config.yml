@@ -1,1 +1,13 @@
-remote_theme: carbon-design-system/gatsby-theme-carbon
+remote_theme: carlosperate/jekyll-theme-rtd
+title: Style as Code
+description: Style as Code helps develops produce code with a consistent style.
+
+#Theme settings:
+site_author: Kevin Gallahan
+repo_url: "https://github.com/kmgallahan/Style-as-Code"
+edit_on_github: true
+github_docs_folder: true
+sticky_navigation: true
+prev_next_buttons_location: None
+search_enabled: true
+hljs_style: github-gist
