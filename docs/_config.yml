@@ -1,13 +1,11 @@
-remote_theme: carlosperate/jekyll-theme-rtd
+remote_theme: pmarsceill/just-the-docs
 title: Style as Code
 description: Style as Code helps develops produce code with a consistent style.
 
 #Theme settings:
-site_author: Kevin Gallahan
-repo_url: "https://github.com/kmgallahan/Style-as-Code"
-edit_on_github: true
-github_docs_folder: true
-sticky_navigation: true
-prev_next_buttons_location: None
 search_enabled: true
-hljs_style: github-gist
+aux_links:
+  "GitHub":
+    - "//github.com/kmgallahan/Style-as-Code"
+heading_anchors: true
+color_scheme: "dark"
