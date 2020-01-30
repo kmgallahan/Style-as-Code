@@ -1,7 +1,11 @@
 ---
-title: Use of `this.`
+title: Use of this.
 parent: The Best Practices
 ---
+
+<ol>
+{:toc}
+</ol>
 
 ## Recommendation
 
@@ -9,7 +13,7 @@ parent: The Best Practices
 
 ## Justification
 
-The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md) states:
+The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md) guidelines state:
 
 > We avoid `this.` unless absolutely necessary:
 
