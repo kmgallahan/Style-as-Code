@@ -17,9 +17,9 @@ indent_size = 2
 
 # C# files
 [*.cs]
-########################
-# Unused member toggles
-########################
+###############################
+# Unused member toggles       #
+###############################
 
 # Toggle (comment/uncomment) these rules during focused refactoring sessions
 
@@ -32,16 +32,17 @@ dotnet_diagnostic.IDE0052.severity = none
 # dotnet_diagnostic.IDE0052.severity = warning
 
 # IDE0059: Unnecessary assignment of a value
-csharp_style_unused_value_assignment_preference = unused_local_variable:refactoring
+csharp_style_unused_value_assignment_preference = unused_local_variable:none
 # csharp_style_unused_value_assignment_preference = unused_local_variable:warning
 
 # IDE0060: Remove unused parameters
-dotnet_code_quality_unused_parameters = all:refactoring
+# Note: This will always flag parameters of event handling methods attached via XAML as unused.
+dotnet_code_quality_unused_parameters = all:none
 # dotnet_code_quality_unused_parameters = all:warning
 
-########################
-# /Unused member toggles
-########################
+###############################
+# /Unused member toggles      #
+###############################
 
 # New line preferences
 csharp_new_line_before_open_brace = all
@@ -115,7 +116,6 @@ csharp_style_prefer_switch_expression = true:suggestion
 
 # Code quality
 dotnet_style_readonly_field = true:suggestion
-dotnet_code_quality_unused_parameters = non_public:suggestion
 
 # Expression-level preferences
 dotnet_style_object_initializer = true:suggestion

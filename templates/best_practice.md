@@ -21,4 +21,4 @@ parent: The Best Practices
 
 ## Discussion
 
-[GitHub Discussion]()
+[GitHub Discussion](){: .btn .btn-purple }
