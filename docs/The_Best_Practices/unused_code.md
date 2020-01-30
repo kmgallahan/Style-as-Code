@@ -23,7 +23,7 @@ Regarding **IDE0060: Remove unused parameters**: event handlers attached through
 
 ## Analyzers
 
-| Rule ID | Rule Name | Value
+| ID | Name | Value
 |:-|:-|:-|
 | IDE0051 | "Remove unused private members"<br>dotnet_diagnostic.IDE0051.severity | none
 | IDE0052 | "Remove unread private members"<br>dotnet_diagnostic.IDE0052.severity | none

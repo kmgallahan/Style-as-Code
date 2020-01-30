@@ -15,7 +15,7 @@ parent: The Best Practices
 
 ## Analyzers
 
-| Rule ID | Rule Name | Value
+| ID | Name | Value
 |:-|:-|:-|
 | IDE0021 | "Use expression body for constructors"<br>csharp_style_expression_bodied_constructors | |
 | IDE0025 | "Use expression body for properties"<br>csharp_style_expression_bodied_properties | |

@@ -58,7 +58,7 @@ No difference. `this.` is removed by the compiler.
 
 [Visual Studio .NET code style](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-language-conventions?#this-and-me)
 
-| Rule ID | Rule Name | Value
+| ID | Name | Value
 |:-|:-|:-|
 | [IDE0003][1] | dotnet_style_qualification_for_field | false:suggestion |
 | [IDE0003][1] | dotnet_style_qualification_for_property | false:suggestion |
