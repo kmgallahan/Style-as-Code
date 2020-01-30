@@ -142,3 +142,7 @@ A: A key part of implementing code style best practices is [Roslyn Analyzers](ht
 Many analyzer packages exist, each containing multiple individual analyzers. One goal of this project is to map analyzers to a best practice page that discusses their usage.
 
 This allows develops to easily search by analyzer ID (e.g. IDE0003) to find the best practices information on that topic.
+
+**Q: Should I use code analysis or EditorConfig for checking code style?**
+
+See the [Microsoft Docs on this question](https://docs.microsoft.com/en-us/visualstudio/code-quality/analyzers-faq?#code-analysis-versus-editorconfig).
