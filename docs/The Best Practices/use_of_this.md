@@ -1,5 +1,6 @@
 ---
 title: Use of `this.`
+parent: The Best Practices
 ---
 
 ## Recommendation
@@ -28,9 +29,20 @@ Against omitting `this.`:
 
 ## Performance
 
+None.
+
+`this.` is removed by the compiler.
+
 ## Analyzers
 
+Visual Studio .NET code style:
 
+| Rule ID | Rule name | Value
+|:-|:-|:-|
+| IDE0003 | dotnet_style_qualification_for_field | false:suggestion |
+| IDE0003 | dotnet_style_qualification_for_property | false:suggestion |
+| IDE0003 | dotnet_style_qualification_for_method | false:suggestion |
+| IDE0003 | dotnet_style_qualification_for_event | false:suggestion |
 
 ## Discussion
 

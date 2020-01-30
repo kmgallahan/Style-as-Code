@@ -1,6 +1,5 @@
 ---
-layout: default
 title: Unused Code
-nav_order: 2
+parent: The Best Practices
 ---
 
