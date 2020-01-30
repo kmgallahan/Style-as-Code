@@ -17,32 +17,6 @@ indent_size = 2
 
 # C# files
 [*.cs]
-########################
-# Unused member toggles
-########################
-
-# Toggle (comment/uncomment) these rules during focused refactoring sessions
-
-# IDE0051: Remove unused private members
-dotnet_diagnostic.IDE0051.severity = none
-# dotnet_diagnostic.IDE0051.severity = warning
-
-# IDE0052: Remove unread private members
-dotnet_diagnostic.IDE0052.severity = none
-# dotnet_diagnostic.IDE0052.severity = warning
-
-# IDE0059: Unnecessary assignment of a value
-csharp_style_unused_value_assignment_preference = unused_local_variable:refactoring
-# csharp_style_unused_value_assignment_preference = unused_local_variable:warning
-
-# IDE0060: Remove unused parameters
-dotnet_code_quality_unused_parameters = all:refactoring
-# dotnet_code_quality_unused_parameters = all:warning
-
-########################
-# /Unused member toggles
-########################
-
 # New line preferences
 csharp_new_line_before_open_brace = all
 csharp_new_line_before_else = true
