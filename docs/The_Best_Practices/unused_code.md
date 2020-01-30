@@ -5,14 +5,6 @@ parent: The Best Practices
 
 # Unused Code
 
-* [Recommendation](#recommendation)
-* [Justification](#justification)
-* [Arguments](#arguments)
-* [Exceptions](#exceptions)
-* [Performance](#performance)
-* [Analyzers](#analyzers)
-* [Discussion](#discussion)
-
 ## Recommendation
 
 All rules related to unused code should be set to refactoring only, or otherwise severity:none.
@@ -48,4 +40,4 @@ Regarding **IDE0060: Remove unused parameters**: event handlers attached through
 
 ## Discussion
 
-[Style as Code GitHub issue](https://github.com/kmgallahan/Style-as-Code/issues/2)
+[Style as Code GitHub issue](https://github.com/kmgallahan/Style-as-Code/issues/2){: .btn .btn-purple }

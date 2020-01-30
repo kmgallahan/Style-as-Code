@@ -5,14 +5,6 @@ parent: The Best Practices
 
 # Use of this.
 
-* [Recommendation](#recommendation)
-* [Justification](#justification)
-* [Arguments](#arguments)
-* [Exceptions](#exceptions)
-* [Performance](#performance)
-* [Analyzers](#analyzers)
-* [Discussion](#discussion)
-
 ## Recommendation
 
 `this.` should only be used when absolutely necessary.
@@ -77,7 +69,7 @@ No difference. `this.` is removed by the compiler.
 
 ## Discussion
 
-[Style as Code GitHub issue](https://github.com/kmgallahan/Style-as-Code/issues/1)
+[Style as Code GitHub issue](https://github.com/kmgallahan/Style-as-Code/issues/1){: .btn .btn-purple }
 
 ---
 

@@ -5,14 +5,6 @@ parent: The Best Practices
 
 # Simplified Names
 
-* [Recommendation](#recommendation)
-* [Justification](#justification)
-* [Arguments](#arguments)
-* [Exceptions](#exceptions)
-* [Performance](#performance)
-* [Analyzers](#analyzers)
-* [Discussion](#discussion)
-
 ## Recommendation
 
 For locals, parameters and type members, prefer types that have a language keyword to represent them (`int, double, string`, etc.) to use that keyword instead of the type name (`Int32, Int64`, etc.).
@@ -46,4 +38,4 @@ The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/do
 
 ## Discussion
 
-[Code as Style GitHub issue]()
+[Code as Style GitHub issue](){: .btn .btn-purple }
