@@ -25,9 +25,7 @@ parent: The Best Practices
 
 ## Analyzers
 
-
-
-| Rule ID | Rule name | Value
+| Rule ID | Rule Name | Value
 |:-|:-|:-|
 
 

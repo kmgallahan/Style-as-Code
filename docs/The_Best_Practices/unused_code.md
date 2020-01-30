@@ -19,7 +19,7 @@ All rules related to unused code should be set to refactoring only, or otherwise
 
 ## Justification
 
-Writing new code requires concentration. An IDE suggesting that code be removed immediately after it is creates unnecessary distraction.
+Writing new code requires concentration. It is distracting to have an IDE often suggest code be removed immediately after creation.
 
 Regarding **IDE0060: Remove unused parameters**: event handlers attached through XAML will always be flagged as having unused parameters.
 

@@ -3,7 +3,7 @@ title: Use of this.
 parent: The Best Practices
 ---
 
-# Use of `this.`
+# Use of this.
 
 * [Recommendation](#recommendation)
 * [Justification](#justification)
@@ -19,7 +19,7 @@ parent: The Best Practices
 
 ## Justification
 
-The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md) guidelines state:
+The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md) guidelines states:
 
 > We avoid `this.` unless absolutely necessary:
 
