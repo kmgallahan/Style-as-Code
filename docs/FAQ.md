@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is Style as Code?
+title: FAQ
 nav_order: 5
 ---
 

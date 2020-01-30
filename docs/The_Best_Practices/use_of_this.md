@@ -19,7 +19,7 @@ parent: The Best Practices
 
 ## Justification
 
-The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md) guidelines states:
+The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md) guidelines state:
 
 > We avoid `this.` unless absolutely necessary:
 
