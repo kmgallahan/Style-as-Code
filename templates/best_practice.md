@@ -5,23 +5,13 @@ parent: The Best Practices
 
 ## Recommendation
 
-
-
 ## Justification
-
-
 
 ## Arguments
 
-
-
 ## Exceptions
 
-
-
 ## Performance
-
-
 
 ## Analyzers
 

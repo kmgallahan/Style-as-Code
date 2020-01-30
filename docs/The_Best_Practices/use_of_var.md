@@ -15,15 +15,9 @@ The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/do
 
 ## Arguments
 
-
-
 ## Exceptions
 
-
-
 ## Performance
-
-
 
 ## Analyzers
 
@@ -33,4 +27,4 @@ The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/do
 
 ## Discussion
 
-[Code as Style GitHub issue](https://github.com/kmgallahan/Style-as-Code/issues/3){: .btn .btn-purple }
+[GitHub Discussion](https://github.com/kmgallahan/Style-as-Code/issues/3){: .btn .btn-purple }

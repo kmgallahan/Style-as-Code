@@ -12,8 +12,8 @@ This is accomplished by spreading awareness and use of [EditorConfig](https://do
 
 To help do this, this project provides 3 things:
 
-* A well thought out EditorConfig file
-* A process for implementing codebase changes
+* A practical EditorConfig file
+* Processes for implementing codebase changes
 * A collection of information about code style best practices
 
 The goals are:

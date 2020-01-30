@@ -17,15 +17,9 @@ Regarding **IDE0060: Remove unused parameters**: event handlers attached through
 
 ## Arguments
 
-
-
 ## Exceptions
 
-
-
 ## Performance
-
-
 
 ## Analyzers
 
@@ -40,4 +34,4 @@ Regarding **IDE0060: Remove unused parameters**: event handlers attached through
 
 ## Discussion
 
-[Style as Code GitHub issue](https://github.com/kmgallahan/Style-as-Code/issues/2){: .btn .btn-purple }
+[GitHub Discussion](https://github.com/kmgallahan/Style-as-Code/issues/2){: .btn .btn-purple }

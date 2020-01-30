@@ -69,7 +69,7 @@ No difference. `this.` is removed by the compiler.
 
 ## Discussion
 
-[Style as Code GitHub issue](https://github.com/kmgallahan/Style-as-Code/issues/1){: .btn .btn-purple }
+[GitHub Discussion](https://github.com/kmgallahan/Style-as-Code/issues/1){: .btn .btn-purple }
 
 ---
 
