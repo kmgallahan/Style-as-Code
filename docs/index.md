@@ -1,4 +1,4 @@
-Style as Code helps develops produce code with a consistent style.
+Style as Code helps developers produce code with a consistent style.
 
 This is accomplished by spreading awareness and use of [EditorConfig](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) files. In a nutshell:
 
