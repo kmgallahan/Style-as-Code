@@ -3,9 +3,15 @@ title: Use of this.
 parent: The Best Practices
 ---
 
-<ol>
-{:toc}
-</ol>
+# Use of `this.`
+
+* [Recommendation](#recommendation)
+* [Justification](#justification)
+* [Arguments](#arguments)
+* [Exceptions](#exceptions)
+* [Performance](#performance)
+* [Analyzers](#analyzers)
+* [Discussion](#discussion)
 
 ## Recommendation
 
@@ -71,7 +77,7 @@ No difference. `this.` is removed by the compiler.
 
 ## Discussion
 
-[Code as Style GitHub issue](https://github.com/kmgallahan/Style-as-Code/issues/1)
+[Style as Code GitHub issue](https://github.com/kmgallahan/Style-as-Code/issues/1)
 
 ---
 
