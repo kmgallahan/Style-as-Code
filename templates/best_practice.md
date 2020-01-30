@@ -21,4 +21,4 @@ parent: The Best Practices
 
 ## Discussion
 
-[Code as Style GitHub issue]()
+[GitHub Discussion]()
