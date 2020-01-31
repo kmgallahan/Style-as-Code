@@ -1,7 +1,7 @@
 ---
 grand_parent: The Best Practices
 parent: Naming
-title: Naming Fields
+title: Fields
 ---
 
 ## Recommendation
