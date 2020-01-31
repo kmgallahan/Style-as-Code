@@ -4,7 +4,7 @@ parent: Language Features
 title: Auto Properties
 ---
 
-[Microsoft Docs | Auto-implemented Properties](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)
+[Microsoft Docs \ Auto-implemented Properties](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)
 
 ## Recommendation
 

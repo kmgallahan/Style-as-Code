@@ -4,7 +4,7 @@ parent: Language Features
 title: Throw Expressions
 ---
 
-[Microsoft Docs | Throw Expressions](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/throw#the-throw-expression)
+[Microsoft Docs \ Throw Expressions](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/throw#the-throw-expression)
 
 ## Recommendation
 

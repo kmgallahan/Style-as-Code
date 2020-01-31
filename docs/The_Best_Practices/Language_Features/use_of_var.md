@@ -4,7 +4,7 @@ parent: Language Features
 title: Use of var
 ---
 
-[Microsoft Docs | var Keyword](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/var)
+[Microsoft Docs \ var Keyword](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/var)
 
 ## Recommendation
 

@@ -4,7 +4,7 @@ parent: Language Features
 title: Use of this.
 ---
 
-[Microsoft Docs | this Keyword](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/this)
+[Microsoft Docs \ this Keyword](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/this)
 
 ## Recommendation
 
@@ -61,12 +61,12 @@ There is no difference in performance when using `this.`, as it is removed by th
 
 | ID | Name | Value
 |:-|:-|:-|
-| [IDE0003][1] | dotnet_style_qualification_for_field | false:suggestion |
-| [IDE0003][1] | dotnet_style_qualification_for_property | false:suggestion |
-| [IDE0003][1] | dotnet_style_qualification_for_method | false:suggestion |
-| [IDE0003][1] | dotnet_style_qualification_for_event | false:suggestion |
+| [IDE0003][10] | dotnet_style_qualification_for_field | false:suggestion |
+| [IDE0003][10] | dotnet_style_qualification_for_property | false:suggestion |
+| [IDE0003][10] | dotnet_style_qualification_for_method | false:suggestion |
+| [IDE0003][10] | dotnet_style_qualification_for_event | false:suggestion |
 
-[1]: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-language-conventions?#this-and-me
+[10]: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-language-conventions?#this-and-me
 
 ## Discussion
 
