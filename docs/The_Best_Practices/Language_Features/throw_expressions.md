@@ -8,6 +8,19 @@ title: Throw Expressions
 
 ## Recommendation
 
+use:
+
+```cs
+_execute = execute ?? throw new ArgumentNullException(nameof(execute));
+```
+
+not:
+
+```cs
+if (execute == null)
+    throw new ArgumentNullException(nameof(execute));
+```
+
 ## Justification
 
 ## Arguments
