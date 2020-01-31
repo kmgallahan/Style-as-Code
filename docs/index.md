@@ -4,8 +4,6 @@ title: Style as Code?
 nav_order: 1
 ---
 
-# Style as Code?
-
 Style as Code helps developers produce code with consistent style.
 
 This is accomplished by encouraging the use of [EditorConfig](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) files. In a nutshell:
