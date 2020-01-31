@@ -5,6 +5,8 @@ parent: The Best Practices
 
 # Use of Expression-bodied Members
 
+These code style settings relate to when using expression bodied members is appropriate.
+
 ## Recommendation
 
 ## Justification
