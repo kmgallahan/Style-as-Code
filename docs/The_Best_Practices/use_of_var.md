@@ -26,7 +26,7 @@ Not:
 ```cs
 int count = 3;
 string name = "Bob";
-List<string> = new List<string>();
+List<Car> cars = new List<Car>();
 
 var cars = Garage.GetCars();
 ```
