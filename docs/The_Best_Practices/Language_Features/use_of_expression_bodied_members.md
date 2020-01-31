@@ -1,6 +1,8 @@
 ---
+grand_parent: The Best Practices
+parent: Language Features
 title: Use of Expression-bodied Members
-parent: The Best Practices
+
 ---
 
 # Use of Expression-bodied Members

@@ -1,6 +1,7 @@
 ---
-title: Simplified Names
-parent: The Best Practices
+grand_parent: The Best Practices
+parent: Language Features
+title: Use of Type Keywords
 ---
 
 # Simplified Names

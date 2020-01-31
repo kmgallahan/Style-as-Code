@@ -1,6 +1,7 @@
 ---
+grand_parent: The Best Practices
+parent: Language Features
 title: Use of var
-parent: The Best Practices
 ---
 
 # Use of Var

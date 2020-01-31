@@ -1,6 +1,7 @@
 ---
+grand_parent: The Best Practices
+parent: Language Features
 title: Use of Auto Properties
-parent: The Best Practices
 ---
 
 # Use of Auto Properties
