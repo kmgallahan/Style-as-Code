@@ -3,9 +3,33 @@ title: Use of var
 parent: The Best Practices
 ---
 
+# Use of Var
+
+These code style settings relate to when `var` should and should not be used.
+
 ## Recommendation
 
-Prefer `var` when the type is already mentioned on the right-hand side of a declaration expression.
+Use `var` when the type is already mentioned on the right-hand side of a declaration expression.
+
+Use:
+
+```cs
+var count = 3;
+var name = "Bob";
+var cars = new List<string>();
+
+List<Car> cars = Garage.GetCars();
+```
+
+Not:
+
+```cs
+int count = 3;
+string name = "Bob";
+List<string> = new List<string>();
+
+var cars = Garage.GetCars();
+```
 
 ## Justification
 
