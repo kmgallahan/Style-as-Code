@@ -5,6 +5,8 @@ parent: The Best Practices
 
 # Use of this.
 
+These code style settings relate to when `this.` should and should not be used.
+
 ## Recommendation
 
 `this.` should only be used when absolutely necessary.
@@ -52,7 +54,7 @@ Examples of where using `this.` is necessary[^1]:
 
 ## Performance
 
-No difference. `this.` is removed by the compiler.
+There is no difference in performance when using `this.`, as it is removed by the compiler.
 
 ## Analyzers
 
