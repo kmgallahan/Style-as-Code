@@ -39,6 +39,8 @@ The .NET Runtime Coding Style guidelines state:
 | ID | Name | Value
 |:-|:-|:-|
 | IDE1006 | "name all constant fields using PascalCase"<br>dotnet_naming_rule.constant_fields_should_be_pascal_case.severity | suggestion |
+| IDE1006 | "internal and private fields should be _camelCase"<br>dotnet_naming_rule.camel_case_for_private_internal_fields.severity | suggestion |
+| IDE1006 | "static fields should have s_ prefix"<br>dotnet_naming_rule.static_fields_should_have_prefix.severity | suggestion |
 
 ## Discussion
 
