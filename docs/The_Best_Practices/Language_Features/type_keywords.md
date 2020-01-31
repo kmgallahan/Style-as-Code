@@ -4,6 +4,8 @@ parent: Language Features
 title: Type Keywords
 ---
 
+[ Microsoft Docs | Types Keywords])(https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/built-in-types-table)
+
 ## Recommendation
 
 For locals, parameters and type members, prefer types that have a language keyword to represent them (`int, double, string`, etc.) to use that keyword instead of the type name (`Int32, Int64`, etc.).

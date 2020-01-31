@@ -2,10 +2,9 @@
 grand_parent: The Best Practices
 parent: Language Features
 title: Expression-bodied Members
-
 ---
 
-These code style settings relate to when using expression bodied members is appropriate.
+[Microsoft Docs | Expression-bodied Members](https://docs.microsoft.com/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members)
 
 ## Recommendation
 

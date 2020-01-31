@@ -4,7 +4,7 @@ parent: Language Features
 title: Auto Properties
 ---
 
-These code style settings relate to when C# 3's [auto-implemented properties](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) should be used should and should not be used.
+[Microsoft Docs | Auto-implemented Properties](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)
 
 ## Recommendation
 

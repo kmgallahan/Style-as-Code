@@ -4,7 +4,7 @@ parent: Language Features
 title: Use of this.
 ---
 
-These code style settings relate to when `this.` should and should not be used.
+[Microsoft Docs | this Keyword](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/this)
 
 ## Recommendation
 
