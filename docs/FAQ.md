@@ -8,6 +8,12 @@ nav_order: 5
 
 A: Similar to [Infrastructure as Code](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code), Style as Code is meant to help manage coding style through a versioned EditorConfig file.
 
+Also:
+
+```cs
+var goodname = Style as Code;
+```
+
 **Q: What are Roslyn Analyzers?**
 
 A: A key part of implementing code style best practices is [Roslyn Analyzers](https://docs.microsoft.com/visualstudio/code-quality/roslyn-analyzers-overview). These convert EditorConfig settings and theoretical best practices to the squiggles and suggestions shown in your IDE.
