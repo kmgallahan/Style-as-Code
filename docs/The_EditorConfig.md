@@ -4,6 +4,8 @@ title: The EditorConfig
 nav_order: 2
 ---
 
+# The EdtitorConfig
+
 The [Microsoft Docs](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) provide a great starting point to learn about EditorConfig files.
 
 Here are 3 options to help avoid starting from scratch:
