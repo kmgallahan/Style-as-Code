@@ -3,6 +3,8 @@ title: Use of Pattern Matching
 parent: The Best Practices
 ---
 
+# Use of Pattern Matching
+
 ## Recommendation
 
 ## Justification

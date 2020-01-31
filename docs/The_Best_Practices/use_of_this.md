@@ -40,11 +40,11 @@ Examples of where using `this.` is necessary[^1]:
 
 ## Arguments
 
-For omitting `this.`:
+### For omitting `this.`
 
 * If exceptions were made the to 'absolutely necessary' rule, then that logic should apply to the entire codebase. However, without an analyzer to enforce the rule there would always be leftover suggestions and inconsistency.
 
-Against omitting `this.`:
+### Against omitting `this.`
 
 * `this.` explicitly indicates which references belong to the enclosing class.
 
