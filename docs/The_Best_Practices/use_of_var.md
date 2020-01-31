@@ -16,7 +16,7 @@ Use:
 ```cs
 var count = 3;
 var name = "Bob";
-var cars = new List<string>();
+var cars = new List<Car>();
 
 List<Car> cars = Garage.GetCars();
 ```

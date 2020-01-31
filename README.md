@@ -15,3 +15,4 @@ The issues are also available to discuss:
 * Changes to the docs structure
 * Changes to the Style as Code Site
 * Whatever you'd like
+  
