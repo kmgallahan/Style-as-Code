@@ -2,6 +2,7 @@
 layout: default
 title: The EditorConfig
 nav_order: 2
+has_toc: false
 ---
 
 The [Microsoft Docs](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) provide a great starting point to learn about EditorConfig files.
