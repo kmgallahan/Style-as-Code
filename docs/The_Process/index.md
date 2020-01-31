@@ -1,7 +1,8 @@
 ---
-layout: default
 title: The Process
+has_children: true
 nav_order: 3
+has_toc: false
 ---
 
 Any developer looking to adopt an EditorConfig likely falls into one of these roles:

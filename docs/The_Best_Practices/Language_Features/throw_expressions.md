@@ -19,6 +19,8 @@ not:
 ```cs
 if (execute == null)
     throw new ArgumentNullException(nameof(execute));
+
+_execute = execute;
 ```
 
 ## Justification
