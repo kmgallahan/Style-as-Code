@@ -5,9 +5,29 @@ parent: The Best Practices
 
 # Use of Auto Properties
 
+These code style settings relate to when C# 3's [auto-implemented properties](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) should be used should and should not be used.
+
 ## Recommendation
 
 For instances where no logic is contained in the getters & setters, an auto property should be used.
+
+use
+
+```cs
+public string Name { get; set; }
+```
+
+not
+
+```cs
+private string _name;
+ 
+    public string Name
+    {
+        get { return _name;  }
+        set { _name = value;  }
+    }
+```
 
 ## Justification
 
