@@ -1,11 +1,9 @@
 ---
 grand_parent: The Best Practices
 parent: Language Features
-title: Use of Expression-bodied Members
+title: Expression-bodied Members
 
 ---
-
-# Use of Expression-bodied Members
 
 These code style settings relate to when using expression bodied members is appropriate.
 

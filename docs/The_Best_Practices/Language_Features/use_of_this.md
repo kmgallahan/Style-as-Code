@@ -4,8 +4,6 @@ parent: Language Features
 title: Use of this.
 ---
 
-# Use of this.
-
 These code style settings relate to when `this.` should and should not be used.
 
 ## Recommendation

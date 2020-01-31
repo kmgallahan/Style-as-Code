@@ -1,10 +1,8 @@
 ---
 grand_parent: The Best Practices
 parent: Language Features
-title: Use of Pattern Matching
+title: Pattern Matching
 ---
-
-# Use of Pattern Matching
 
 ## Recommendation
 

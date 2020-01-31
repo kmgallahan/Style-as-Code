@@ -5,8 +5,6 @@ nav_order: 4
 has_children: true
 ---
 
-# The Best Practices
-
 A goal of this project is to provide a place to learn about and discuss code style best practices. After all, if an EditorConfig file suggests that you write code in a certain way, you'll probably want to know why.
 
 To that end, this repository provides the following information for a variety of code style subjects:

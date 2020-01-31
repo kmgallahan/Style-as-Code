@@ -1,10 +1,8 @@
 ---
 grand_parent: The Best Practices
 parent: Language Features
-title: Use of Auto Properties
+title: Auto Properties
 ---
-
-# Use of Auto Properties
 
 These code style settings relate to when C# 3's [auto-implemented properties](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) should be used should and should not be used.
 

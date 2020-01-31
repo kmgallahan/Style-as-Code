@@ -4,8 +4,6 @@ title: The Process
 nav_order: 3
 ---
 
-# The Process
-
 Any developer looking to adopt an EditorConfig likely falls into one of these roles:
 
 * Owner of a new project

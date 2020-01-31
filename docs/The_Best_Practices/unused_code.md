@@ -4,8 +4,6 @@ parent: The Best Practices
 nav_order: 4
 ---
 
-# Unused Code
-
 ## Recommendation
 
 All rules related to unused code should be set to refactoring only, or otherwise severity:none.

@@ -1,10 +1,8 @@
 ---
 grand_parent: The Best Practices
 parent: Language Features
-title: Use of Type Keywords
+title: Type Keywords
 ---
-
-# Simplified Names
 
 ## Recommendation
 

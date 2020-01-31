@@ -4,8 +4,6 @@ parent: Language Features
 title: Use of var
 ---
 
-# Use of Var
-
 These code style settings relate to when `var` should and should not be used.
 
 ## Recommendation
