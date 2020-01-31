@@ -14,9 +14,9 @@ The C# version in which the feature was introduces is listed below for two reaso
 
 | Feature | C# Version | Rules
 |:-|-:|:-|
-| [Automatic properties](/auto_properties) | 3 | IDE0032 |
-| Expression-bodied members | 6-7.0 | IDE0021, IDE0025, IDE0027 |
-| Pattern matching | 7.0-8 | IDE0019 |
-| Type keywords | 1 | IDE0001, IDE0049 |
-| Use of this. | 1 | IDE0003 |
-| Use of var | 1 | IDE0007 |
+| [Automatic properties](auto_properties.md) | 3 | IDE0032 |
+| [Expression-bodied members](expression_bodied_members.md) | 6-7.0 | IDE0021, IDE0025, IDE0027 |
+| [Pattern matching](pattern_matching.md) | 7.0-8 | IDE0019 |
+| [Type keywords](type_keywords.md) | 1 | IDE0001, IDE0049 |
+| [Use of this.](use_of_this.md) | 1 | IDE0003 |
+| [Use of var](use_of_var.md) | 1 | IDE0007 |
