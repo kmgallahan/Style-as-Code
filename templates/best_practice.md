@@ -20,7 +20,6 @@ parent: The Best Practices
 | ID | Name | Value
 |:-|:-|:-|
 
-
 ## Discussion
 
 [GitHub Discussion](){: .btn .btn-purple }
