@@ -4,11 +4,11 @@ title: The EditorConfig
 nav_order: 2
 ---
 
-# The EdtitorConfig
+# The EditorConfig
 
 The [Microsoft Docs](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) provide a great starting point to learn about EditorConfig files.
 
-Here are 3 options to help avoid starting from scratch:
+Here are 3 options to avoid starting from scratch:
 
 ## Visual Studio Defaults
 
@@ -16,14 +16,14 @@ Visual Studio [can generate](https://docs.microsoft.com/visualstudio/ide/create-
 
 ## .NET Runtime EditorConfig
 
-The .NET Runtime project relies on the Visual Studio defaults as a baseline. They proceeded to create [a modified EditorConfig](https://github.com/dotnet/runtime/blob/master/.editorconfig) to enforce their specific [Coding Style guidelines](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md).
+The .NET Runtime project relies on the Visual Studio defaults as a baseline. A [modified EditorConfig](https://github.com/dotnet/runtime/blob/master/.editorconfig) was then created to enforce their specific [Coding Style guidelines](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md).
 
 ## Style as Code EditorConfig
 
 Style as Code relies on the .NET Runtime EditorConfig as its baseline. Modifications have been made to:
 
 * Help developers get to zero IDE suggestions
-* Provide blocks of settings than can be toggled when desired
+* Highlight groups of settings than can be toggled when desired
 * Cover settings for Roslyn Analyzers beyond those included in Visual Studio
 
 [This is the current iteration](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig).
