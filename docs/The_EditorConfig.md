@@ -10,15 +10,15 @@ The [Microsoft Docs](https://docs.microsoft.com/visualstudio/ide/create-portable
 
 Here are 3 options to help avoid starting from scratch:
 
-### Visual Studio Defaults
+## Visual Studio Defaults
 
 Visual Studio [can generate](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019#add-and-remove-editorconfig-files) a `.editorconfig` file populated with the default settings. [This is what it looks like](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig_VisualStudioDefaults.md).
 
-### .NET Runtime EditorConfig
+## .NET Runtime EditorConfig
 
 The .NET Runtime project relies on the Visual Studio defaults as a baseline. They proceeded to create [a modified EditorConfig](https://github.com/dotnet/runtime/blob/master/.editorconfig) to enforce their specific [Coding Style guidelines](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md).
 
-### Style as Code EditorConfig
+## Style as Code EditorConfig
 
 Style as Code relies on the .NET Runtime EditorConfig as its baseline. Modifications have been made to:
 

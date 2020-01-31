@@ -1,6 +1,6 @@
 remote_theme: kmgallahan/just-the-docs
 title: Style as Code
-description: Style as Code helps develops produce code with a consistent style.
+description: Style as Code helps developers produce code with a consistent style.
 
 #Theme settings:
 search_enabled: true
@@ -9,4 +9,5 @@ aux_links:
     - "//github.com/kmgallahan/Style-as-Code"
 heading_anchors: true
 color_scheme: "dark"
-github_url: "https://github.com/kmgallahan/Style-as-Code/tree/master/docs"
+github_url: "https://github.com/kmgallahan/Style-as-Code"
+github_docs: "https://github.com/kmgallahan/Style-as-Code/tree/master/docs"
