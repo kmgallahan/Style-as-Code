@@ -12,11 +12,17 @@ Here are 3 options to avoid starting from scratch:
 
 ## Visual Studio Defaults
 
-Visual Studio [can generate](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019#add-and-remove-editorconfig-files) a `.editorconfig` file populated with the default settings. [This is what it looks like](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig_VisualStudioDefaults.md).
+Visual Studio [can generate](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019#add-and-remove-editorconfig-files) a `.editorconfig` file populated with the default settings.
+
+[Visual Studio Defaults EditorConfig](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig_VisualStudioDefaults)
 
 ## .NET Runtime EditorConfig
 
-The .NET Runtime project relies on the Visual Studio defaults as a baseline. A [modified EditorConfig](https://github.com/dotnet/runtime/blob/master/.editorconfig) was then created to enforce their specific [Coding Style guidelines](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md).
+The .NET Runtime project relies on the Visual Studio defaults as a baseline.
+
+Then using their [Coding Style guidelines](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md) a modified EditorConfig file was created.
+
+[.NET Runtime Editorconfig](https://github.com/dotnet/runtime/blob/master/.editorconfig)
 
 ## Style as Code EditorConfig
 
@@ -26,4 +32,6 @@ Style as Code relies on the .NET Runtime EditorConfig as its baseline. Modificat
 * Highlight groups of settings than can be toggled when desired
 * Cover settings for Roslyn Analyzers beyond those included in Visual Studio
 
-[This is the current iteration](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig).
+The file is versioned and iterated upon as more information is added to the best practices documentation.
+
+[Style as Code EditorConfig](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig)
