@@ -1,9 +1,9 @@
 ---
+grand_parent: The Best Practices
+parent: 
 title: 
-parent: The Best Practices
----
 
-# 
+---
 
 ## Recommendation
 
