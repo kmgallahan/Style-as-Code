@@ -18,8 +18,10 @@ The .NET Runtime project relies on the Visual Studio defaults as a baseline. The
 
 ### Style as Code EditorConfig
 
-The .NET Runtime EditorConfig is the baseline for [the one provided by Style as Code](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig). Modifications have been made to:
+Style as Code relies on the .NET Runtime EditorConfig as its baseline. Modifications have been made to:
 
 * Help developers get to zero IDE suggestions
 * Provide blocks of settings than can be toggled when desired
 * Cover settings for Roslyn Analyzers beyond those included in Visual Studio
+
+[This is the current iteration](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig).
