@@ -13,13 +13,13 @@ For instances where no logic is contained in the getters & setters, an auto prop
 
 use
 
-```csharp
+```cs
 public string Name { get; set; }
 ```
 
 not
 
-```csharp
+```cs
 private string _name;
 
 public string Name
