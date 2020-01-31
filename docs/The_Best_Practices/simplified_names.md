@@ -28,8 +28,11 @@ The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/do
 | ID | Name | Value
 |:-|:-|:-|
 | IDE0001 | "Simplify names"<br>dotnet_diagnostic.IDE0001.severity | |
-| IDE0049 | dotnet_style_predefined_type_for_locals_parameters_members | true:suggestion |
-| IDE0049 | dotnet_style_predefined_type_for_member_access | true:suggestion |
+| [IDE0049][1] | dotnet_style_predefined_type_for_locals_parameters_members | true:suggestion |
+| [IDE0049][2] | dotnet_style_predefined_type_for_member_access | true:suggestion |
+
+[1]: https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions?#dotnet_style_predefined_type_for_locals_parameters_members
+[2]: https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions?#dotnet_style_predefined_type_for_member_access
 
 ## Discussion
 

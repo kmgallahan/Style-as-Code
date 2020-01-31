@@ -13,7 +13,7 @@ Use `var` when the type is already mentioned on the right-hand side of a declara
 
 Use:
 
-```csharp
+```cs
 var count = 3;
 var name = "Bob";
 var cars = new List<string>();
@@ -23,7 +23,7 @@ List<Car> cars = Garage.GetCars();
 
 Not:
 
-```csharp
+```cs
 int count = 3;
 string name = "Bob";
 List<string> = new List<string>();
