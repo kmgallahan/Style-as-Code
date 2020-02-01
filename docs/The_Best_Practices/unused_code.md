@@ -29,7 +29,7 @@ Regarding **IDE0060: Remove unused parameters**: event handlers attached through
 | IDE0059 | "Unnecessary assignment of a value"<br>csharp_style_unused_value_assignment_preference | unused_local_variable:none
 | [IDE0060][1] | "Remove unused parameters"<br>dotnet_code_quality_unused_parameters | all:none |
 
-[1]: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-language-conventions?#net-code-quality-settings
+[1]: https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions?#net-code-quality-settings
 
 ## Discussion
 

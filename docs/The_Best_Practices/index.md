@@ -1,5 +1,4 @@
 ---
-layout: default
 title: The Best Practices
 has_children: true
 has_toc: false

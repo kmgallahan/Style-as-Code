@@ -1,17 +1,16 @@
 ---
 parent: Style as Code?
-layout: default
 title: FAQ
 ---
 
 ## Q: Why is this project called Style as Code?
 
-A: Similar to [Infrastructure as Code](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code), Style as Code is meant to help manage coding style through a versioned EditorConfig file.
+A: Similar to [Infrastructure as Code](https://docs.microsoft.com/azure/devops/learn/what-is-infrastructure-as-code), Style as Code is meant to help manage coding style through a versioned EditorConfig file.
 
 Also:
 
 ```cs
-var goodname = Style as Code;
+var goodName = Style as Code;
 ```
 
 ## Q: What are Roslyn Analyzers?
@@ -24,4 +23,4 @@ This allows develops to easily search by analyzer ID (e.g. IDE0003) to find the 
 
 ## Q: Should I use code analysis or EditorConfig for checking code style?
 
-See the [Microsoft Docs on this question](https://docs.microsoft.com/en-us/visualstudio/code-quality/analyzers-faq?#code-analysis-versus-editorconfig).
+See the [Microsoft Docs on this question](https://docs.microsoft.com/visualstudio/code-quality/analyzers-faq?#code-analysis-versus-editorconfig).

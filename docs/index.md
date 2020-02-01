@@ -5,7 +5,7 @@ has_toc: false
 nav_order: 1
 ---
 
-Style as Code helps developers produce code with consistent style.
+Style as Code helps C# developers produce code with consistent style.
 
 This is accomplished by encouraging the use of [EditorConfig](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) files. In a nutshell:
 
@@ -15,9 +15,9 @@ This is accomplished by encouraging the use of [EditorConfig](https://docs.micro
 
 This project provides 3 things to help developers get started with EditorConfigs :
 
-* A practical EditorConfig file to use
-* Processes for implementing codebase changes
-* Information about code style best practices
+* A practical [EditorConfig file](../The_EditorConfig/index.md) to use
+* [Processes](../The_Process/index.md) for implementing codebase changes
+* Information about code style [best practices](../The_Best_Practices/index.md)
 
 ## Why you should care
 
@@ -27,4 +27,4 @@ The goals are:
 * Less pain from code style related changes
 * A place learn about and discuss code style best practices
 * Less time spent creating and maintaining EditorConfig files
-* Less distraction from dozens, hundreds, or thousands of IDE suggestions
+* Less distraction from dozens, hundreds, or thousands of IDE suggestions & warnings

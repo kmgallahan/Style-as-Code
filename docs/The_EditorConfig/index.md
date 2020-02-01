@@ -1,5 +1,4 @@
 ---
-layout: default
 title: The EditorConfig
 has_children: true
 has_toc: false

@@ -31,10 +31,10 @@ Examples of where using `this.` is necessary[^1]:
  9. To cast itself to another type
  10. [To chain constructors defined in the same class][8]
 
-  [2]: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/this
-  [3]: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/this
-  [4]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/index
-  [5]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods
+  [2]: https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/this
+  [3]: https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/this
+  [4]: https://docs.microsoft.com/dotnet/csharp/programming-guide/indexers/index
+  [5]: https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods
   [6]: http://www.codeproject.com/Articles/7011/An-Intro-to-Constructors-in-C%29
   [7]: https://stackoverflow.com/questions/194484/whats-the-strangest-corner-case-youve-seen-in-c-or-net/1800162#1800162
   [8]: https://stackoverflow.com/questions/1814953/c-sharp-constructor-chaining-how-to-do-it
@@ -57,7 +57,7 @@ There is no difference in performance when using `this.`, as it is removed by th
 
 ## Analyzers
 
-[Visual Studio .NET code style](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-language-conventions?#this-and-me)
+[Visual Studio .NET code style](https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions?#this-and-me)
 
 | ID | Name | Value
 |:-|:-|:-|
@@ -66,7 +66,7 @@ There is no difference in performance when using `this.`, as it is removed by th
 | [IDE0003][10] | dotnet_style_qualification_for_method | false:suggestion |
 | [IDE0003][10] | dotnet_style_qualification_for_event | false:suggestion |
 
-[10]: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-language-conventions?#this-and-me
+[10]: https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions?#this-and-me
 
 ## Discussion
 
