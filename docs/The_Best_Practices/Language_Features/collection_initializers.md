@@ -4,7 +4,7 @@ parent: Language Features
 title: Collection Initializers
 ---
 
-[Microsoft Docs > Collection Initializers](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers#collection-initializers)
+[Microsoft Docs / Collection Initializers](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers#collection-initializers)
 
 ## Recommendation
 
