@@ -1,6 +1,6 @@
 # Style as Code
 
-Style as Code helps developers produce code with a consistent style.
+Style as Code helps C# developers write code with consistent style.
 
 For more information see the [Style as Code site](styleascode.net), or browse [the markdown docs](https://github.com/kmgallahan/Style-as-Code/tree/master/docs) directly.
 
