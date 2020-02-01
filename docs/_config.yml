@@ -4,9 +4,7 @@ description: Style as Code helps developers produce code with a consistent style
 
 #Theme settings:
 search_enabled: true
-aux_links:
-  "GitHub":
-    - "//github.com/kmgallahan/Style-as-Code"
+ga_tracking: UA-157517290-1
 heading_anchors: true
 color_scheme: "dark"
 github_url: "https://github.com/kmgallahan/Style-as-Code"
