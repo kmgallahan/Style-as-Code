@@ -1,8 +1,10 @@
 ---
 layout: default
 title: The Best Practices
-nav_order: 4
 has_children: true
+has_toc: false
+nav_order: 4
+
 ---
 
 A goal of this project is to provide a place to learn about and discuss code style best practices. After all, if an EditorConfig file suggests that you write code in a certain way, you'll probably want to know why.
