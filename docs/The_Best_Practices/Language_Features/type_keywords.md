@@ -4,7 +4,7 @@ parent: Language Features
 title: Type Keywords
 ---
 
-[Microsoft Docs \ Types Keywords])(https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/built-in-types-table)
+[Microsoft Docs / Types Keywords])(https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/built-in-types-table)
 
 ## Recommendation
 

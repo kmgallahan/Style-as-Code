@@ -2,7 +2,7 @@
 
 Style as Code helps developers produce code with a consistent style.
 
-For more information see the [GitHub Pages site](https://kmgallahan.github.io/Style-as-Code), or browse [the docs](https://github.com/kmgallahan/Style-as-Code/tree/master/docs) here.
+For more information see the [Style as Code site](styleascode.net), or browse [the markdown docs](https://github.com/kmgallahan/Style-as-Code/tree/master/docs) directly.
 
 ## Contributing to the docs
 
@@ -25,6 +25,8 @@ The Style as Code site is hosted on [GitHub Pages](https://pages.github.com/). I
 The fork exists mainly to apply css styling, with minor HTML & [Liquid](https://shopify.github.io/liquid/) tweaks.
 
 The site is meant to share information in a distraction free environment, so bells and whistles are kept ot a minimum.
+
+Basic Google Analytics is set up just to check if any pages get traction and could therefore use more attention. This was mainly done because it only took a single line in the YAML config file.
 
 ## Other contributions
 

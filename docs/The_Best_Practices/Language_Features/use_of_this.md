@@ -4,7 +4,7 @@ parent: Language Features
 title: Use of this.
 ---
 
-[Microsoft Docs \ this Keyword](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/this)
+[Microsoft Docs / this Keyword](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/this)
 
 ## Recommendation
 
