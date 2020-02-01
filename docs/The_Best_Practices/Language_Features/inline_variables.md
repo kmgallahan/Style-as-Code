@@ -4,7 +4,7 @@ parent: Language Features
 title: Inline Variables
 ---
 
-[Microsoft Docs / out Variables](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7#out-variables)
+[Microsoft Docs > out Variables](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7#out-variables)
 
 ## Recommendation
 
