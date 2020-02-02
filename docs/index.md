@@ -23,6 +23,6 @@ The goals are:
 
 * Consistent code style across projects
 * Less pain from code style related changes
-* A place learn about and discuss code style best practices
+* A place to learn about and discuss code style best practices
 * Less time spent creating and maintaining EditorConfig files
-* Less distraction from dozens, hundreds, or thousands of IDE suggestions & warnings
+* Less distraction from dozens, hundreds, or thousands of IDE suggestions and warnings
