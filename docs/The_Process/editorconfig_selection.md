@@ -9,7 +9,7 @@ Assuming you do not have one already, here are your options for selecting an ini
 * Start from scratch
 * Export your Visual Studio settings
 * Use the Visual Studio defaults
-* Use the .NET Core Runtime or Compiler EditorConfig
+* Use the .NET Core Runtime or Rosyln Compiler EditorConfig
 * Use the Style as Code EditorConfig
 
 The advantages of each option are presented below.
