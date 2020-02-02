@@ -1,6 +1,7 @@
 ---
 parent: The Process
 title: Pull Request Templates
+nav_order: 4
 ---
 
 A template that can be used to initiate pull requests meant to resolve all or most instances of a single rule's violations:

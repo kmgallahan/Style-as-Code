@@ -10,7 +10,7 @@ A: Similar to [Infrastructure as Code](https://docs.microsoft.com/azure/devops/l
 Also:
 
 ```cs
-var goodName = Style as Code;
+var goodName = style as Code;
 ```
 
 ## Q: What are Roslyn Analyzers?

@@ -5,6 +5,22 @@ nav_order: 3
 has_toc: false
 ---
 
+Getting started with EditorConfig files involves these steps:
+
+1. Picking an EditorConfig
+2. Resolving rule violations
+3. Expanding analyzer usage
+
+If you're already using one and want to stick with it, then start on step 2.
+
+If you're already at 0 warnings and suggestions, then decide on if you:
+
+* are content with you current configuration
+* want to tweak some existing rules > explore the [best practices](../The_Best_Practices/index.md)
+* want to use more analyzers > step 3
+
+
+
 Any developer looking to adopt an EditorConfig likely falls into one of these roles:
 
 * Owner of a new project
