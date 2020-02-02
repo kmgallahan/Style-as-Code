@@ -7,9 +7,9 @@ has_toc: false
 
 Getting started with EditorConfig files involves these steps:
 
-1. Picking an EditorConfig
-2. Resolving rule violations
-3. Expanding analyzer usage
+1. EditorConfig selection
+2. Resolving violations
+3. Adding analyzers
 
 If you're already using one and want to stick with it, then start on step 2.
 

@@ -1,6 +1,6 @@
 ---
 parent: The Process
-title: Expanding Analyzer Usage
+title: Adding Analyzers
 nav_order: 3
 ---
 

@@ -1,6 +1,6 @@
 ---
 parent: The Process
-title: Picking an EditorConfig
+title: EditorConfig Selection
 nav_order: 1
 ---
 
@@ -9,7 +9,7 @@ Assuming you do not have one already, here are your options for selecting an ini
 * Start from scratch
 * Export your Visual Studio settings
 * Use the Visual Studio defaults
-* Use the .NET Core Runtime EditorConfig
+* Use the .NET Core Runtime or Compiler EditorConfig
 * Use the Style as Code EditorConfig
 
 The advantages of each option are presented below.
@@ -53,7 +53,11 @@ Cons:
 
 * You'll need or want to invest time reviewing the best practices to make changes to rule configurations
 
-## Use the .NET Core Runtime EditorConfig
+## Use the .NET Core Runtime or Rosyln Compiler EditorConfig
+
+[.NET Core Runtime EditorConfig](https://raw.githubusercontent.com/dotnet/runtime/master/.editorconfig)
+
+[Roslyn Compiler EditorConfig](https://raw.githubusercontent.com/dotnet/roslyn/master/.editorconfig)
 
 Pros:
 
@@ -75,4 +79,4 @@ Pros:
 Cons:
 
 * You might disagree with some rule configurations
-* 
+* Your EditorConfig will have references to styleascode.net

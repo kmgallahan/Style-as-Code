@@ -1,5 +1,5 @@
 ---
 parent: The Process
-title: Resolving Rule Violations
+title: Resolving Violations
 nav_order: 2
 ---
