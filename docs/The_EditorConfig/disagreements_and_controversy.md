@@ -22,8 +22,8 @@ The absence of a rule doesn't always indicate disagreement, as the default may b
 
 For those interested:
 
-<details>
-<summary>Rules which are equal:</summary>
+Rules which are equal:
+
 |Name|
 |:-|
 |csharp_indent_block_contents |
@@ -78,10 +78,9 @@ For those interested:
 |indent_size |
 |indent_style |
 |insert_final_newline |
-</details>
 
-<details>
-<summary>Rules which are **not equal**:</summary>
+Rules which are **not equal**:
+
 |
 |:-|
 |csharp_indent_labels |
@@ -109,10 +108,9 @@ For those interested:
 |dotnet_style_qualification_for_field |
 |dotnet_style_qualification_for_method |
 |dotnet_style_qualification_for_property |
-</details>
 
-<details>
-<summary>Rules only defined in only one EditorConfig:</summary>
+Rules only defined in only one EditorConfig:
+
 |
 |:-|
 |csharp_prefer_simple_default_expression |
@@ -186,4 +184,3 @@ For those interested:
 |dotnet_style_prefer_is_null_check_over_reference_equality_method |
 |dotnet_style_readonly_field |
 |trim_trailing_whitespace |
-</details>
