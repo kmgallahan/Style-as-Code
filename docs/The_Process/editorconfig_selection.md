@@ -6,11 +6,11 @@ nav_order: 1
 
 Assuming you do not have one already, here are your options for selecting an initial EditorConfig file:
 
-* Start from scratch
-* Export your Visual Studio settings
-* Use the Visual Studio defaults
-* Use the .NET Core Runtime or Rosyln Compiler EditorConfig
-* Use the Style as Code EditorConfig
+* [Start from scratch](#start-from-scratch)
+* [Create from your Visual Studio settings](#create-from-your-visual-studio-settings)
+* [Use the default Visual Studio settings](#use-the-default-visual-studio-settings)
+* [Use the .NET Core Runtime or Rosyln Compiler EditorConfig](#use-the-net-core-runtime-or-rosyln-compiler-editorconfig)
+* [Use the Style as Code EditorConfig](#use-the-style-as-code-editorconfig)
 
 The advantages of each option are presented below.
 
@@ -29,7 +29,7 @@ Cons:
 * More time spent creating the EditorConfig
 * Any missing rules will instead be configured by whatever IDE instance the project is opened with (so different settings for IDEs, devices, and contributors)
 
-## Export your Visual Studio settings
+## Create from your Visual Studio settings
 
 [Instructions](https://docs.microsoft.com/visualstudio/ide/code-styles-and-code-cleanup?view=vs-2019#code-styles-in-editorconfig-files)
 
@@ -55,17 +55,27 @@ Cons:
 
 ## Use the .NET Core Runtime or Rosyln Compiler EditorConfig
 
-[.NET Core Runtime EditorConfig](https://raw.githubusercontent.com/dotnet/runtime/master/.editorconfig)
+[.NET Core Runtime EditorConfig](https://github.com/dotnet/runtime/blob/master/.editorconfig)
 
-[Roslyn Compiler EditorConfig](https://raw.githubusercontent.com/dotnet/roslyn/master/.editorconfig)
+[Roslyn Compiler EditorConfig](https://github.com/dotnet/roslyn/blob/master/.editorconfig)
 
 Pros:
 
-* You'll be adopting a widely used and accepted set of best practices
+* You'll be adopting a set of rules that are used by one of the largest C# projects with many contributors
 
 Cons:
 
 * You won't get as much control over rule choices
+* You'll need to decide on which one to adopt, and that isn't straightforward
+
+As to why picking one isn't straightforward, as of Febuary 2020 there are:
+
+* 148 C# rules defined
+* 58 are equal
+* 25 are **not equal**
+* 74 are only defined in one EditorConfig
+
+You can read more about the differences [here](../The_EditorConfig/disagreements_and_controversy.md).
 
 ## Use the Style as Code EditorConfig
 
