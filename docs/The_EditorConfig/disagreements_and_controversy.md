@@ -24,7 +24,7 @@ For those interested:
 
 <details>
 <summary>Rules which are equal:</summary>
-|
+|Name|
 |:-|
 |csharp_indent_block_contents |
 |csharp_indent_braces |
