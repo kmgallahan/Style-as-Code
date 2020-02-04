@@ -14,6 +14,8 @@ title: Pattern Matching
 
 ## Performance
 
+## Readability
+
 ## Analyzers
 
 | ID | Name | Value

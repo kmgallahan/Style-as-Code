@@ -1,6 +1,8 @@
 ---
-parent: The EditorConfig
-title: Disagreements and Controversy
+parent: EditorConfigs
+title: Disagreements
+nav_order: 4
+search_exclude: true
 ---
 
 Every developer likely has at least one coding style rule preference that will clash with any EditorConfig they adopt.
@@ -19,6 +21,8 @@ To summarize, as of February 2020 there are:
 * 74 are defined in only one EditorConfig
 
 The absence of a rule doesn't always indicate disagreement, as the default may be used by most contributors anyways. However, it does mean some contributors may see warnings and suggestions based on their own IDE settings.
+
+Also, a rule being configured differently may mean both teams recommend the rule be followed, but one team marks it as `silent` and the other `suggestion`.
 
 For those interested:
 

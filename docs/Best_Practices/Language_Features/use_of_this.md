@@ -55,6 +55,8 @@ Examples of where using `this.` is necessary[^1]:
 
 There is no difference in performance when using `this.`, as it is removed by the compiler.
 
+## Readability
+
 ## Analyzers
 
 [Visual Studio .NET code style](https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions?#this-and-me)

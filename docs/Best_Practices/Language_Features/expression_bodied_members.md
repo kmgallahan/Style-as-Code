@@ -16,6 +16,8 @@ title: Expression-bodied Members
 
 ## Performance
 
+## Readability
+
 ## Analyzers
 
 | ID | Name | Value

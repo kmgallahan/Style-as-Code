@@ -16,6 +16,8 @@ title: Collection Initializers
 
 ## Performance
 
+## Readability
+
 ## Analyzers
 
 | ID | Name | Value

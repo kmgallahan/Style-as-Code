@@ -42,11 +42,13 @@ The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/do
 
 ## Performance
 
+## Readability
+
 ## Analyzers
 
 | ID | Name | Value
 |:-|:-|:-|
-| IDE0007 | "Use implicit type"<br>csharp_style_var_when_type_is_apparent | true:suggestion |
+| IDE0007 | "Use var instead of explicit type when type is apparent"<br>csharp_style_var_when_type_is_apparent | true:suggestion |
 
 ## Discussion
 

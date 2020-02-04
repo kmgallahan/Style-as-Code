@@ -14,6 +14,8 @@ title: Modifier Order
 
 ## Performance
 
+## Readability
+
 ## Analyzers
 
 | ID | Name | Value

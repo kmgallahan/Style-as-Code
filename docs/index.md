@@ -1,21 +1,19 @@
 ---
-title: Style as Code?
-has_children: true
-has_toc: false
+title: Getting Started
 nav_order: 1
 ---
 
 Style as Code helps C# developers write code with consistent style.
 
-This is done by expanding the use of [EditorConfig](The_EditorConfig/index.md) files and [Rosyln Analyzers](https://styleascode.net/Style_as_Code/FAQ.html#q-what-are-roslyn-analyzers).
+This is done by expanding the use of [EditorConfig](EditorConfig/index.md) files and [Rosyln Analyzers](https://styleascode.net/Style_as_Code/FAQ.html#q-what-are-roslyn-analyzers).
 
 ## What you get here
 
 This project provides 3 things to help developers get started with EditorConfigs :
 
-* A practical [EditorConfig file](../The_EditorConfig/index.md)
-* Information about code style [best practices](../The_Best_Practices/index.md)
-* [Processes](../The_Process/index.md) for implementing codebase changes
+* [Guidance](EditorConfigs/index.md) on EditorConfig files
+* Information about code style [best practices](Best_Practices/index.md)
+* [A process](resolving_violations.md) for implementing codebase changes
 
 ## Why you should care
 

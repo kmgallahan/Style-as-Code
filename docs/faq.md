@@ -1,6 +1,6 @@
 ---
-parent: Style as Code?
 title: FAQ
+nav_order: 4
 ---
 
 ## Q: Why is this project called Style as Code?

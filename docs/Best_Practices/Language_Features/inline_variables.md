@@ -1,10 +1,10 @@
 ---
 grand_parent: The Best Practices
 parent: Language Features
-title: Object Initializers
+title: Inline Variables
 ---
 
-[Microsoft Docs / Object Initializers](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers#object-initializers)
+[Microsoft Docs / out Variables](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7#out-variables)
 
 ## Recommendation
 
@@ -16,11 +16,13 @@ title: Object Initializers
 
 ## Performance
 
+## Readability
+
 ## Analyzers
 
 | ID | Name | Value
 |:-|:-|:-|
-| IDE0017 | dotnet_style_object_initializer | |
+| IDE0018 | csharp_style_inlined_variable_declaration | |
 
 ## Discussion
 

@@ -31,6 +31,8 @@ _execute = execute;
 
 ## Performance
 
+## Readability
+
 ## Analyzers
 
 | ID | Name | Value
