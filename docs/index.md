@@ -13,7 +13,7 @@ This project provides 3 things to help developers get started with EditorConfigs
 
 * [Guidance](EditorConfigs/index.md) on EditorConfig files
 * Information about code style [best practices](Best_Practices/index.md)
-* [A process](resolving_violations.md) for implementing codebase changes
+* [A process](Resolving_Violations/index.md) for implementing codebase changes
 
 ## Why you should care
 
