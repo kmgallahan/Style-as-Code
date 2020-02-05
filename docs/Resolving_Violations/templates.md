@@ -68,7 +68,7 @@ Commit template for introducing a new rule:
 Introduces $RULE_PROPERTY$ : $RULE_VALUE$
 ```
 
-Commit template for solving a rule's violations (remember, one rule per commit):
+Commit template for resolving a rule's violations (remember, one rule per commit):
 
 ```
 Resolves $COUNT$ violations of rule $RULE_ID$.
