@@ -8,6 +8,8 @@ title: Throw Expressions
 
 ## Recommendation
 
+Use throw expressions to simplify null checks when possible.
+
 use:
 
 ```cs
