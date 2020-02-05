@@ -1,11 +1,10 @@
 # EditorConfig  https://EditorConfig.org
-# Style as Code Minimal EditorConfig v.2020.02.04.0
-# https://github.com/kmgallahan/Style-as-Code
+# Style as Code Minimal EditorConfig v.2020.02.04.0 https://styleascode.net
 
 # top-most EditorConfig file
 root = true
 
-# Don't use tabs for indentation.
+# Uses spaces for indentation.
 [*]
 indent_style = space
 

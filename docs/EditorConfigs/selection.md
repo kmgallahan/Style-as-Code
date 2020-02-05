@@ -90,6 +90,8 @@ Cons:
 * You'll have to invest more time learning about the rules, configuring them, and modifying the EditorConfig
 * With many rules missing, contributors will still be relying on some rules as configured in their IDE installations
 
+[Style as Code Minimal EditorConfig](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig_minimal)
+
 ## Use the Style as Code EditorConfig
 
 Pros:
@@ -106,3 +108,5 @@ Cons:
 
 * You might disagree with some rule configurations
 * The file will be updated over time, so you may fall behind on the best practices being recommended
+
+[Style as Code EditorConfig](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig)
