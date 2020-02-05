@@ -20,7 +20,7 @@ In a nutshell:
 |[Disagreements][3]|How to handle rule disagreements|
 |[Adding Analyzers][4]|Guidance on adding additional analyzers|
 
-[1]: EditorConfigs/selection.md
-[2]: EditorConfigs/style_as_code.md
-[3]: EditorConfigs/disagreements.md
-[4]: EditorConfigs/adding_analyzers.md
+[1]: selection.md
+[2]: style_as_code.md
+[3]: disagreements.md
+[4]: adding_analyzers.md

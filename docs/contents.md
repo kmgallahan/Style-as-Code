@@ -17,9 +17,9 @@ nav_order: 2
 |&nbsp;&nbsp;[Language Features][11]|Rules related to C# language features|
 |&nbsp;&nbsp;[Formatting][12]|Rules related to spacing, ordering, and new lines|
 |&nbsp;&nbsp;[Naming][13]|Rules related to naming members and classes|
-|[FAQ][4]|Answers to miscellaneous questions|
+|[FAQ][4]|Answers to mis\cellaneous questions|
 
-[1]: getting_started.md
+[1]: index.md
 [2]: contents.md
 [3]: resolving_violations.md
 [4]: faq.md
@@ -29,6 +29,6 @@ nav_order: 2
 [8]: EditorConfigs/disagreements.md
 [9]: EditorConfigs/adding_analyzers.md
 [10]: Best_Practices/index.md
-[11]: Best_Practices/language_features.md
-[12]: Best_Practices/formatting.md
-[13]: Best_Practices/naming.md
+[11]: Best_Practices/language_features/language_features.md
+[12]: Best_Practices/formatting/formatting.md
+[13]: Best_Practices/naming/naming.md

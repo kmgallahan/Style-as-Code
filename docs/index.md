@@ -5,7 +5,7 @@ nav_order: 1
 
 Style as Code helps C# developers write code with consistent style.
 
-This is done by expanding the use of [EditorConfig](EditorConfig/index.md) files and [Rosyln Analyzers](https://styleascode.net/Style_as_Code/FAQ.html#q-what-are-roslyn-analyzers).
+This is done by expanding the use of [EditorConfig](EditorConfigs/index.md) files and [Rosyln Analyzers](faq.md).
 
 ## What you get here
 

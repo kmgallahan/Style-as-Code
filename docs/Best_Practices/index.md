@@ -29,6 +29,6 @@ This information is presented through markdown pages with associated GitHub issu
 |[Formatting][2]|spacing, ordering, and new lines|
 |[Naming][3]|Naming members and classes|
 
-[1]: Best_Practices/language_featuers.md
-[2]: Best_Practices/formatting.md
-[3]: Best_Practices/naming.md
+[1]: language_features.md
+[2]: formatting.md
+[3]: naming.md
