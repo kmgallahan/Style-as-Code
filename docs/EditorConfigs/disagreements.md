@@ -1,7 +1,7 @@
 ---
 parent: EditorConfigs
 title: Disagreements
-nav_order: 4
+nav_order: 3
 search_exclude: true
 ---
 

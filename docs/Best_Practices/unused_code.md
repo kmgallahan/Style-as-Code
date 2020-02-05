@@ -1,6 +1,6 @@
 ---
 title: Unused Code
-parent: The Best Practices
+parent: Best Practices
 nav_order: 4
 ---
 

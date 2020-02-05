@@ -1,7 +1,7 @@
 ---
-parent: The Process
+parent: EditorConfigs
 title: Adding Analyzers
-nav_order: 5
+nav_order: 4
 ---
 
 Before adding additional analyzers to your project(s), carefully consider if you're willing to take the time to actually configure and resolve the new rules.

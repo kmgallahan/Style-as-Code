@@ -1,5 +1,5 @@
 ---
-parent: The Best Practices
+parent: Best Practices
 title: Formatting
 has_children: true
 nav_order: 2

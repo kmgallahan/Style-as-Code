@@ -8,7 +8,6 @@ nav_order: 2
 |[Getting Started][1]|Explains why the project exists|
 |[Contents][2]|What you'll find here|
 |[Resolving Violations][3]|Guidance on making code style related changes|
-|[FAQ][4]|Answers to miscellaneous questions|
 |[EditorConfigs][5]|Working with EditorConfig files|
 |&nbsp;&nbsp;[Selection][6]|Guidance on selected an EditorConfig file|
 |&nbsp;&nbsp;[Style as Code][7]|Information on the EditorConfig provided by Style as Code|
@@ -18,6 +17,7 @@ nav_order: 2
 |&nbsp;&nbsp;[Language Features][11]|Rules related to C# language features|
 |&nbsp;&nbsp;[Formatting][12]|Rules related to spacing, ordering, and new lines|
 |&nbsp;&nbsp;[Naming][13]|Rules related to naming members and classes|
+|[FAQ][4]|Answers to miscellaneous questions|
 
 [1]: getting_started.md
 [2]: contents.md

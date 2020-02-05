@@ -1,5 +1,5 @@
 ---
-grand_parent: The Best Practices
+grand_parent: Best Practices
 parent: Language Features
 title: Collection Initializers
 ---

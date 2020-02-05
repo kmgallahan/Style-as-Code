@@ -1,5 +1,5 @@
 ---
-parent: The Best Practices
+parent: Best Practices
 title: Naming
 has_children: true
 nav_order: 3

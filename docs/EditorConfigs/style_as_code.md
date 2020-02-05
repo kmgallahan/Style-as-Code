@@ -1,7 +1,7 @@
 ---
-parent: The EditorConfig
+parent: EditorConfigs
 title: Style as Code
-nav_order: 3
+nav_order: 2
 ---
 
 Style as Code provides 4 EditorConfigs that all follow the [best practices](../Best_Practices/index.md) discussed here. The options include:
