@@ -6,7 +6,7 @@ nav_order: 1
 has_toc: false
 ---
 
-This best practices relate to usage language-level features.
+These best practices relate to usage of language-level features.
 
 The C# version in which the feature was introduces is listed below for two reason:
 

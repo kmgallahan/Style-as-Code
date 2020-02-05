@@ -4,12 +4,12 @@ title: Selection
 nav_order: 1
 ---
 
-Assuming you do not have one already, your options for selecting an EditorConfig include:
+Assuming you do not already have one, your options for selecting an EditorConfig are to:
 
 * [Start from scratch](#start-from-scratch)
 * [Create from your Visual Studio settings](#create-from-your-visual-studio-settings)
 * [Use the default Visual Studio settings](#use-the-default-visual-studio-settings)
-* [Use the .NET Core Runtime or Rosyln Compiler EditorConfig](#use-the-net-core-runtime-or-rosyln-compiler-editorconfig)
+* [Use the .NET Core Runtime or Rosyln Compiler EditorConfigs](#use-the-net-core-runtime-or-rosyln-compiler-editorconfigs)
 * [Use the Minimal Style as Code EditorConfig](#use-the-minimal-style-as-code-editorconfig)
 * [Use the Style as Code EditorConfig](#use-the-style-as-code-editorconfig)
 
@@ -54,7 +54,7 @@ Cons:
 
 * You'll need or want to invest time reviewing the best practices to make changes to rule configurations
 
-## Use the .NET Core Runtime or Rosyln Compiler EditorConfig
+## Use the .NET Core Runtime or Rosyln Compiler EditorConfigs
 
 [.NET Core Runtime EditorConfig](https://github.com/dotnet/runtime/blob/master/.editorconfig)
 
@@ -69,39 +69,40 @@ Cons:
 * You won't get as much control over rule choices
 * You'll need to decide on which one to adopt, and that isn't straightforward
 
-As to why picking one isn't straightforward, as of February 2020 there are:
+As to why picking one isn't straightforward, as of February 2020 between the files there are:
 
 * 148 C# rules defined
 * 58 are equal
 * 25 are **not equal**
 * 74 are only defined in one EditorConfig
 
-You can read more about the differences [here](../EditorConfig/disagreements.md).
+You can read more about the differences [here](disagreements.md).
 
 ## Use the Minimal Style as Code EditorConfig
 
 Pros:
 
-* Only includes rules that both the .NET Core runtime and Roslyn Compiler agree upon
+* Only includes rules that appear and are equal in both the .NET Core runtime and Roslyn Compiler EditorConfigs
 * You get to decide which rules to add and how to configure them
 
 Cons:
 
 * You'll have to invest more time learning about the rules, configuring them, and modifying the EditorConfig
-* With many rules missing, contributors will still be relying on many rules as configured in their IDE installations
+* With many rules missing, contributors will still be relying on some rules as configured in their IDE installations
 
 ## Use the Style as Code EditorConfig
 
 Pros:
 
-* You'll get the same benefits of using the .NET Core Runtime rules
+* The rationale for all rule decisions should be available here
 * It should be easier for you to reach 0 warnings and suggestions
 * The file is divided into sections of related rules
 * The file has comments that pair rule IDs and descriptions with configuration lines
 * Some rules are grouped and noted as being those which should be toggled on and off during refactoring
 * It will eventually cover settings for Roslyn Analyzers beyond the built-in ones
-* There file is versioned and iterated upon as more information is added to the [best practices](../Best_Practices/index.md) documentation
+* The file is versioned and iterated upon as more information is added to the [best practices](../Best_Practices/index.md) documentation
 
 Cons:
 
 * You might disagree with some rule configurations
+* The file will be updated over time, so you may fall behind on the best practices being recommended

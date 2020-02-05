@@ -26,8 +26,8 @@ This information is presented through markdown pages with associated GitHub issu
 |Area|Rules relating to...|
 |:-|:-|
 |[Language Features][1]|C# language features|
-|[Formatting][2]|spacing, ordering, and new lines|
-|[Naming][3]|Naming members and classes|
+|[Formatting][2]|Spacing, ordering, and new lines|
+|[Naming][3]|Consistent naming|
 
 [1]: Language_Features/language_features.md
 [2]: Formatting/formatting.md

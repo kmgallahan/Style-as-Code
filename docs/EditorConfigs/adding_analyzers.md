@@ -6,7 +6,7 @@ nav_order: 4
 
 Before adding additional analyzers to your project(s), carefully consider if you're willing to take the time to actually configure and resolve the new rules.
 
-Adding a package with hundreds of rules just to end up ignore them runs against the goal of getting to 0 warnings and suggestions.
+Adding a package with hundreds of rules just to end up ignoring them runs against the goal of getting to 0 warnings and suggestions. In fact, configuring all rules to the severity level of `none` may be appropriate in order to more slowly introduce and configure them.
 
 Style as Code does plan to help with the configuration and best practices aspect of this.
 

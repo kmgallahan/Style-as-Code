@@ -9,7 +9,7 @@ This is done by expanding the use of [EditorConfig](EditorConfigs/index.md) file
 
 ## What you get here
 
-This project provides 3 things to help developers get started with EditorConfigs :
+This project provides 3 things to help developers get started with EditorConfigs:
 
 * [Guidance](EditorConfigs/index.md) on EditorConfig files
 * Information about code style [best practices](Best_Practices/index.md)

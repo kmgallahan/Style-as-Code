@@ -11,9 +11,9 @@ Some rules aren't particularly controversial (such as sorting namespaces), while
 
 ## Case Study: .NET Core Runtime vs. Roslyn Compiler
 
-An interesting example of this can be observed by comparing the EditorConfig used by the [.NET Core Runtime](https://github.com/dotnet/runtime/blob/master/.editorconfig), with that of the [Roslyn Compiler](https://github.com/dotnet/roslyn/blob/master/.editorconfig).
+An interesting example of this can be observed by comparing the EditorConfig used by the [.NET Core Runtime](https://github.com/dotnet/runtime/blob/master/.editorconfig) with that of the [Roslyn Compiler](https://github.com/dotnet/roslyn/blob/master/.editorconfig).
 
-To summarize, as of February 2020 there are:
+To summarize, as of February 2020 between the files there are:
 
 * 148 C# rules defined
 * 58 are equal
