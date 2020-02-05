@@ -1,0 +1,106 @@
+.class public auto ansi beforefieldinit
+  NetCoreSandbox.Program
+    extends [System.Runtime]System.Object
+{
+  .custom instance void [BenchmarkDotNet]BenchmarkDotNet.Attributes.MemoryDiagnoserAttribute::.ctor()
+    = (01 00 00 00 )
+
+  .field public static string[] _args
+
+  .field public static string[] args
+
+  .method public hidebysig static void
+    Main(
+      string[] args
+    ) cil managed
+  {
+    .entrypoint
+    .maxstack 8
+
+    // [15 4 - 15 55]
+    IL_0000: ldtoken      NetCoreSandbox.Program
+    IL_0005: call         class [System.Runtime]System.Type [System.Runtime]System.Type::GetTypeFromHandle(valuetype [System.Runtime]System.RuntimeTypeHandle)
+    IL_000a: ldnull
+    IL_000b: call         class [BenchmarkDotNet]BenchmarkDotNet.Reports.Summary [BenchmarkDotNet]BenchmarkDotNet.Running.BenchmarkRunner::Run(class [System.Runtime]System.Type, class [BenchmarkDotNet]BenchmarkDotNet.Configs.IConfig)
+    IL_0010: pop
+
+    // [16 3 - 16 4]
+    IL_0011: ret
+
+  } // end of method Program::Main
+
+  .method public hidebysig instance void
+    NoThrowExpression() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 8
+
+    // [21 4 - 21 21]
+    IL_0000: ldsfld       string[] NetCoreSandbox.Program::args
+    IL_0005: brtrue.s     IL_0012
+
+    // [22 5 - 22 45]
+    IL_0007: ldstr        "args"
+    IL_000c: newobj       instance void [System.Runtime]System.ArgumentNullException::.ctor(string)
+    IL_0011: throw
+
+    // [24 4 - 24 17]
+    IL_0012: ldsfld       string[] NetCoreSandbox.Program::args
+    IL_0017: stsfld       string[] NetCoreSandbox.Program::_args
+
+    // [25 3 - 25 4]
+    IL_001c: ret
+
+  } // end of method Program::NoThrowExpression
+
+  .method public hidebysig instance void
+    ThrowExpression() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 8
+
+    // [30 4 - 30 60]
+    IL_0000: ldsfld       string[] NetCoreSandbox.Program::args
+    IL_0005: dup
+    IL_0006: brtrue.s     IL_0014
+    IL_0008: pop
+    IL_0009: ldstr        "args"
+    IL_000e: newobj       instance void [System.Runtime]System.ArgumentNullException::.ctor(string)
+    IL_0013: throw
+    IL_0014: stsfld       string[] NetCoreSandbox.Program::_args
+
+    // [31 3 - 31 4]
+    IL_0019: ret
+
+  } // end of method Program::ThrowExpression
+
+  .method public hidebysig specialname rtspecialname instance void
+    .ctor() cil managed
+  {
+    .maxstack 8
+
+    IL_0000: ldarg.0      // this
+    IL_0001: call         instance void [System.Runtime]System.Object::.ctor()
+    IL_0006: ret
+
+  } // end of method Program::.ctor
+
+  .method private hidebysig static specialname rtspecialname void
+    .cctor() cil managed
+  {
+    .maxstack 8
+
+    // [11 3 - 11 57]
+    IL_0000: ldc.i4.1
+    IL_0001: newarr       [System.Runtime]System.String
+    IL_0006: dup
+    IL_0007: ldc.i4.0
+    IL_0008: ldstr        "test"
+    IL_000d: stelem.ref
+    IL_000e: stsfld       string[] NetCoreSandbox.Program::args
+    IL_0013: ret
+
+  } // end of method Program::.cctor
+} // end of class NetCoreSandbox.Program

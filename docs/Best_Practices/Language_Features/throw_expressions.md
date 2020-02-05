@@ -39,10 +39,16 @@ Both the Roslyn and .NET Core runtime teams agree that using this language featu
 
 ## Performance
 
-Sample IL:
+|            Method |     Mean |     Error |    StdDev |
+|------------------ |---------:|----------:|----------:|
+| NoThrowExpression | 2.201 ns | 0.0307 ns | 0.0272 ns |
+|   ThrowExpression | 2.184 ns | 0.0032 ns | 0.0027 ns |
 
-* [without throw expression](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_false)
-* [with throw expression](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_true)
+* Note: there are no managed memory allocations, so this stat is omitted.
+
+[Benchmark program](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_benchmark)
+
+[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_true)
 
 ## Readability
 
