@@ -29,7 +29,7 @@ Both the Roslyn and .NET Core runtime teams agree that using this language featu
 
 ## Arguments
 
-**Against using throw expressions for null checks**
+### Against using throw expressions for null checks
 
 * Only available in C# 7+
 
@@ -39,8 +39,8 @@ Both the Roslyn and .NET Core runtime teams agree that using this language featu
 
 Sample IL:
 
-* [without throw expression](..../../IL_Samples/throw_expression_false)
-* [with throw expression](..../../IL_Samples/throw_expression_true)
+* [without throw expression](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_false)
+* [with throw expression](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_true)
 
 ## Readability
 

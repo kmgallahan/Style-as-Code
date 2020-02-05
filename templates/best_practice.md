@@ -14,6 +14,8 @@ title:
 
 ## Performance
 
+## Readability
+
 ## Analyzers
 
 | ID | Name | Value
