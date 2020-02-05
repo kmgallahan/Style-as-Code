@@ -46,11 +46,15 @@ This EditorConfig only includes the rules where both the Roslyn Compiler and .NE
 
 It is meant to include little to no controversial rules so as to make getting started as painless as possible.
 
+[Style as Code Minimal EditorConfig](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig_minimal)
+
 ## Built-in
 
 This EditorConfig covers all of the built-in rules.
 
 Rules are configured based on a rationale that is documented here under the best practices section.
+
+[Style as Code EditorConfig](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig)
 
 ## Built-in with FxCop
 
