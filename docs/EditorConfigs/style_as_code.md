@@ -26,7 +26,7 @@ Sections divide the rules into groups that correspond with the best practices ar
 ########################
 ```
 
-Some rules are marked as "togglable", leaving them on would require suppressions to achieve 0 violations. Toggling them should be done during focused code refactoring sessions. An example would be all of the rules referring to unused code. Example: 
+Some rules are marked "togglable", as leaving them on would require suppressions to achieve 0 violations. Toggling them should be done during focused code refactoring sessions. An example would be all of the rules referring to unused code. Example: 
 
 ```
 ########################
@@ -42,7 +42,7 @@ dotnet_diagnostic.IDE0051.severity = none
 
 ## Minimal
 
-This EditorConfig only includes the rules where both the Roslyn Compiler and .NET Core runtime teams agree on how they should be configured.
+This EditorConfig only includes the rules where both the Roslyn compiler and .NET Core runtime teams agree on how they should be configured.
 
 It is meant to include little to no controversial rules so as to make getting started as painless as possible.
 
@@ -52,7 +52,7 @@ It is meant to include little to no controversial rules so as to make getting st
 
 This EditorConfig covers all of the built-in rules.
 
-Rules are configured based on a rationale that is documented here under the best practices section.
+Rules are configured based on rationale that is documented here under the best practices section.
 
 [Style as Code EditorConfig](https://github.com/kmgallahan/Style-as-Code/blob/master/editorconfig/.editorconfig)
 
