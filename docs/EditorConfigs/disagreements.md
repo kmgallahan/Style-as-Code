@@ -22,7 +22,7 @@ To summarize, as of February 2020 between the files there are:
 
 The absence of a rule doesn't always indicate disagreement, as the default may be used by most contributors anyways. However, it does mean some contributors may see warnings and suggestions based on their own IDE settings.
 
-Also, a rule being configured differently may mean both teams recommend the rule be followed, but one team marks it as `silent` and the other `suggestion`.
+Also, a rule being configured differently may mean both teams recommend the rule be followed, but one team marks it as `none` or `silent` and the other `suggestion`.
 
 For those interested:
 
