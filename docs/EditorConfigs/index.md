@@ -2,7 +2,7 @@
 title: The EditorConfig
 has_children: true
 has_toc: false
-nav_order: 5
+nav_order: 4
 ---
 
 The [Microsoft Docs](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options) provide a great starting point to learn about EditorConfig files.

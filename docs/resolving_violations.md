@@ -59,7 +59,7 @@ The currently recommended process is:
 5. Resolve all instances of the rule violation across the codebase
 6. Create a commit to capture this rule-specific set of changes
 7. Optional (when not committing directly to master): Create a pull request whenever the number of changes is non-trivial (e.g. more than ~5 instances of rule violations were resolved)
-8. Optional: In the PR provide a link to the relevant Style as Code rationale (https://styleascode.net/ID/*******)
+8. Optional: In the PR provide a link to the relevant Style as Code rationale (https://styleascode.net/ID/RULE_ID)
 
 This will allow the maintainers to review the impact of individual rules, while reviewing the rationale provided here if desired.
 
@@ -75,7 +75,7 @@ The approach of tackling one rule at a time will result in less jarring modifica
 
 ## Templates
 
-Pull request template that introduces a new EditorConfig rule:
+Pull request template that introduces a new EditorConfig rule and resolves its violations:
 
 ```
 This pull request introduces the EditorConfig rule:
@@ -83,7 +83,7 @@ This pull request introduces the EditorConfig rule:
 # $RULE_ID$: $RULE_DESCRIPTION$
 $RULE_PROPERTY$ : $RULE_VALUE$
 
-It also resolves $COUNT# violations of rule $RULE_ID$ where:
+It also resolves $COUNT# violations where the recommendation:
 
 $RULE_RECOMMENDATION$
 
@@ -100,7 +100,7 @@ This pull request introduces the EditorConfig rule:
 # IDE0007: Use var instead of explicit type when type is apparent
 csharp_style_var_when_type_is_apparent : true:suggestion
 
-It also resolves 14 violations of rule IDE0007 where the recommendation is to:
+It also resolves 14 violations where the recommendation is to:
 
 Use var when the type is already mentioned on the right-hand side of a declaration expression.
 
@@ -109,7 +109,27 @@ See the rationale for this rule here:
 https://styleascode.net/ID/IDE0007
 ```
 
-Note that multiple rules may be included in the same pull request if the total number of resolved violations is relatively small (<5 or so), and each rule is non-controversial.
+Note that multiple rules may be included in the same pull request if the total number of resolved violations is relatively small (<5 or so), and each rule is non-controversial. Example:
+
+```
+Resolves 4 violations of rule IDE00?? where the recommendation is to:
+
+Always specify visibility, even if it's the default.
+
+See the rationale for this rule here:
+
+https://styleascode.net/ID/IDE00??
+
+---
+
+Resolves 2 violations of rule IDE0036 where the recommendation is to:
+
+Respect the preferred modifier order.
+
+See the rationale for this rule here:
+
+https://styleascode.net/ID/IDE0036
+```
 
 ---
 

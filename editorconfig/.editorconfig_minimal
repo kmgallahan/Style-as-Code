@@ -1,5 +1,5 @@
-# editorconfig.org
-# Style as Code EditorConfig v.2020.02.04.0
+# EditorConfig  https://EditorConfig.org
+# Style as Code Minimal EditorConfig v.2020.02.04.0
 # https://github.com/kmgallahan/Style-as-Code
 
 # top-most EditorConfig file
@@ -16,33 +16,6 @@ insert_final_newline = true
 
 # C# files
 [*.cs]
-
-########################
-# Unused member toggles       
-########################
-
-# Toggle (comment/uncomment) these rules during focused refactoring sessions
-
-# IDE0051: Remove unused private members
-dotnet_diagnostic.IDE0051.severity = none
-# dotnet_diagnostic.IDE0051.severity = warning
-
-# IDE0052: Remove unread private members
-dotnet_diagnostic.IDE0052.severity = none
-# dotnet_diagnostic.IDE0052.severity = warning
-
-# IDE0059: Unnecessary assignment of a value
-csharp_style_unused_value_assignment_preference = unused_local_variable:none
-# csharp_style_unused_value_assignment_preference = unused_local_variable:warning
-
-# IDE0060: Remove unused parameters
-# Note: This will always flag parameters of event handling methods attached via XAML as unused.
-dotnet_code_quality_unused_parameters = all:none
-# dotnet_code_quality_unused_parameters = all:warning
-
-########################
-# /Unused member toggles      
-########################
 
 ########################
 # Formatting

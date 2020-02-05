@@ -1,6 +1,6 @@
 ---
 title: FAQ
-nav_order: 4
+nav_order: 6
 ---
 
 ## Q: Why is this project called Style as Code?
