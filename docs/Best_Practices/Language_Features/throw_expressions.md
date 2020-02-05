@@ -55,4 +55,4 @@ Sample IL:
 
 ## Discussion
 
-[GitHub Discussion](){: .btn .btn-purple }
+[GitHub Discussion](https://github.com/kmgallahan/Style-as-Code/issues/4){: .btn .btn-purple }
