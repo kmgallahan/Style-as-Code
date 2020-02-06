@@ -1,17 +1,19 @@
 # EditorConfig  https://EditorConfig.org
-# Style as Code EditorConfig v.2020.02.05.0 https://styleascode.net
+# Style as Code EditorConfig v.2020.02.06.0 https://styleascode.net
 
 # top-most EditorConfig file
 root = true
 
-# Uses spaces for indentation.
+# Use spaces for indentation.
 [*]
 indent_style = space
 
 # Code files
-[*.{cs,csx}]
+[*.{cs,csx,xaml,xml}]
+charset = utf-8-bom
 indent_size = 4
 insert_final_newline = true
+trim_trailing_whitespace = true
 
 # C# files
 [*.cs]
