@@ -10,7 +10,7 @@ There are a few options for how to resolve rule violations in a codebase:
 * One file at a time
 * All at once
 
-[Automated analyzer fixes](https://docs.microsoft.com/visualstudio/ide/code-styles-and-code-cleanup) will make any of the processes go relatively smoothly. However the results may not be desirable by everyone (read the above articles).
+[Automated analyzer fixes](https://docs.microsoft.com/visualstudio/ide/code-styles-and-code-cleanup) will make any of the processes go relatively smoothly. However the results may not be desirable by everyone (see [considerations](considerations.md)).
 
 The currently recommended process is:
 
