@@ -1,4 +1,6 @@
 ---
+grand_parent: Best Practices
+parent: Language Features
 title: Auto Properties
 nav_exclude: true
 ---
