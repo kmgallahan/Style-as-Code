@@ -1,4 +1,6 @@
 ---
+grand_parent: Best Practices
+parent: Language Features
 title: Use of var
 nav_exclude: true
 ---

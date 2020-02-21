@@ -1,4 +1,6 @@
 ---
+grand_parent: Best Practices
+parent: Language Features
 title: Throw Expressions
 nav_exclude: true
 ---

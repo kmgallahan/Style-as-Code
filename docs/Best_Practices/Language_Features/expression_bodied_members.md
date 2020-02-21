@@ -1,4 +1,6 @@
 ---
+grand_parent: Best Practices
+parent: Language Features
 title: Expression-bodied Members
 nav_exclude: true
 ---
