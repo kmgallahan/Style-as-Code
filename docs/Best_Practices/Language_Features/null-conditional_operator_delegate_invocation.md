@@ -68,4 +68,3 @@ However, it does introduce a call to the `Invoke` method.
 ## Discussion
 
 [GitHub Discussion](https://github.com/kmgallahan/Style-as-Code/issues/6){: .btn .btn-purple }
-
