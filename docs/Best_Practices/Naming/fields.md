@@ -1,6 +1,4 @@
 ---
-grand_parent: Best Practices
-parent: Naming
 title: Fields
 nav_exclude: true
 ---
