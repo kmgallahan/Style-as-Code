@@ -10,13 +10,13 @@ title: Throw Expressions
 
 Use throw expressions to simplify null checks when possible.
 
-use:
+Use:
 
 ```cs
 _execute = execute ?? throw new ArgumentNullException(nameof(execute));
 ```
 
-not:
+Not:
 
 ```cs
 if (execute == null)
@@ -29,15 +29,13 @@ _execute = execute;
 
 Both the Roslyn and .NET Core runtime teams agree that using this language feature is desirable.
 
-## Arguments
+### Arguments
 
-### Against using throw expressions for null checks
+#### Against using throw expressions for null checks
 
 * Only available in C# 7+
 
-## Exceptions
-
-## Performance
+### Performance
 
 |            Method |     Mean |     Error |    StdDev |
 |------------------ |---------:|----------:|----------:|
@@ -50,10 +48,12 @@ Note: there are no managed memory allocations, so this stat is omitted.
 
 [Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_IL)
 
-## Readability
+### Readability
 
 * Typically reduces 3-5 lines of code down to 1
 * Line length does increase with a chance of exceeding 80-120 characters
+
+## Exceptions
 
 ## Analyzers
 

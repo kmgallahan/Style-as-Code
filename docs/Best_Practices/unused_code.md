@@ -14,13 +14,13 @@ Writing new code requires concentration. It is distracting to have an IDE often 
 
 Regarding **IDE0060: Remove unused parameters**: event handlers attached through XAML will always be flagged as having unused parameters.
 
-## Arguments
+### Arguments
+
+### Performance
+
+### Readability
 
 ## Exceptions
-
-## Performance
-
-## Readability
 
 ## Analyzers
 

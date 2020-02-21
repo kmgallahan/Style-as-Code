@@ -10,15 +10,15 @@ title: Inline Variable Declaration
 
 `out` variables should be declared inline when possible.
 
-use
+Use:
 
-```
+```cs
 dictionaryWithEntry.TryGetValue(1, out string entry);
 ```
 
-not
+Not:
 
-```
+```cs
 string entry;
 
 dictionaryWithEntry.TryGetValue(1, out entry);
@@ -58,7 +58,7 @@ Typically eliminates one line of code used to declare the variable elsewhere, an
 
 | ID | Name | Value
 |:-|:-|:-|
-| IDE0018 | csharp_style_inlined_variable_declaration | |
+| IDE0018 | csharp_style_inlined_variable_declaration | true:suggestion |
 
 ## Discussion
 

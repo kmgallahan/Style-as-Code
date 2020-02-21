@@ -18,13 +18,13 @@ The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/do
 
 > We use language keywords instead of BCL types (e.g. `int, string, float` instead of `Int32, String, Single`, etc) for both type references as well as method calls (e.g. `int.Parse` instead of `Int32.Parse`).
 
-## Arguments
+### Arguments
+
+### Performance
+
+### Readability
 
 ## Exceptions
-
-## Performance
-
-## Readability
 
 ## Analyzers
 

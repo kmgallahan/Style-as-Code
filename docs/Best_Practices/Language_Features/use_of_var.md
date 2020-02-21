@@ -36,13 +36,13 @@ The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/do
 
 > We only use `var` when it's obvious what the variable type is (e.g. `var stream = new FileStream(...)` not `var stream = OpenStandardInput()`).
 
-## Arguments
+### Arguments
+
+### Performance
+
+### Readability
 
 ## Exceptions
-
-## Performance
-
-## Readability
 
 ## Analyzers
 

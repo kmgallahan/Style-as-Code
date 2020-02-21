@@ -39,23 +39,23 @@ Examples of where using `this.` is necessary[^1]:
   [7]: https://stackoverflow.com/questions/194484/whats-the-strangest-corner-case-youve-seen-in-c-or-net/1800162#1800162
   [8]: https://stackoverflow.com/questions/1814953/c-sharp-constructor-chaining-how-to-do-it
 
-## Arguments
+### Arguments
 
-### For omitting `this.`
+#### For omitting `this.`
 
 * If exceptions were made the to 'absolutely necessary' rule, then that logic should apply to the entire codebase. However, without an analyzer to enforce the rule there would always be leftover suggestions and inconsistency.
 
-### Against omitting `this.`
+#### Against omitting `this.`
 
 * `this.` explicitly indicates which references belong to the enclosing class.
 
-## Exceptions
-
-## Performance
+### Performance
 
 There is no difference in performance when using `this.`, as it is removed by the compiler.
 
-## Readability
+### Readability
+
+## Exceptions
 
 ## Analyzers
 

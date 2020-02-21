@@ -24,15 +24,17 @@ The .NET Runtime Coding Style guidelines state:
 
 > We use PascalCasing to name all our constant local variables and fields.
 
-## Arguments
+### Arguments
 
-## Exceptions
+### Performance
+
+### Readability
+
+### Exceptions
 
 The .NET Runtime Coding Style guidelines state:
 
 > The only exception is for interop code where the constant value should exactly match the name and value of the code you are calling via interop.
-
-## Performance
 
 ## Analyzers
 

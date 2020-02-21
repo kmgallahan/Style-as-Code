@@ -10,13 +10,13 @@ title: Object Initializers
 
 ## Justification
 
-## Arguments
+### Arguments
+
+### Performance
+
+### Readability
 
 ## Exceptions
-
-## Performance
-
-## Readability
 
 ## Analyzers
 

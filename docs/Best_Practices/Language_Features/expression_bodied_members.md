@@ -10,13 +10,13 @@ title: Expression-bodied Members
 
 ## Justification
 
-## Arguments
+### Arguments
+
+### Performance
+
+### Readability
 
 ## Exceptions
-
-## Performance
-
-## Readability
 
 ## Analyzers
 

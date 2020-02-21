@@ -8,13 +8,13 @@ title: Modifier Order
 
 ## Justification
 
-## Arguments
+### Arguments
+
+### Performance
+
+### Readability
 
 ## Exceptions
-
-## Performance
-
-## Readability
 
 ## Analyzers
 
