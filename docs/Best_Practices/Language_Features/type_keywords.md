@@ -1,6 +1,4 @@
 ---
-grand_parent: Best Practices
-parent: Language Features
 title: Type Keywords
 nav_exclude: true
 ---

@@ -1,6 +1,4 @@
 ---
-grand_parent: Best Practices
-parent: Language Features
 title: Object Initializers
 nav_exclude: true
 ---

@@ -1,6 +1,4 @@
 ---
-grand_parent: Best Practices
-parent: Language Features
 title: Inline Variable Declaration
 nav_exclude: true
 ---
