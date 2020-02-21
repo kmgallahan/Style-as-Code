@@ -1,7 +1,7 @@
 ---
 title: Unused Code
-parent: Best Practices
 nav_order: 4
+nav_exclude: true
 ---
 
 ## Recommendation
