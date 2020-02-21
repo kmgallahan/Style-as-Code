@@ -47,7 +47,7 @@ Note: there are no managed memory allocations, so this stat is omitted.
 
 [Benchmark program](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_benchmark.cs)
 
-[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_IL)
+[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_benchmark_IL)
 
 ### Readability
 
