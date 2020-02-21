@@ -18,4 +18,4 @@ The C# version in which the feature was introduces is listed below for two reaso
 |:-|-:|:-|
 | [Inline variable declaration](inline_variable_declaration.md) | 7.0 | IDE0018 |
 | [Null-conditional operator](null-conditional_operator.md) | 6 | IDE1005 |
-| [Throw expressions](throw_expressions.md) | 7.0 | IDE0017 |
+| [Throw expressions](throw_expressions.md) | 7.0 | IDE0016 |
