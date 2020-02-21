@@ -45,9 +45,9 @@ Both the Roslyn and .NET Core runtime teams agree that using this language featu
 
 Note: there are no managed memory allocations, so this stat is omitted.
 
-[Benchmark program](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_benchmark.cs)
+[Benchmark code](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/throw_expression_benchmark.cs)
 
-[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/throw_expression_benchmark_IL)
+[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/throw_expression_benchmark_IL)
 
 ### Readability
 

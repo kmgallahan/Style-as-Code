@@ -49,9 +49,9 @@ The same IL is generated, regardless of if the out variable is declared inline o
 
 Note: there are no managed memory allocations, so this stat is omitted.
 
-[Benchmark program](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/inline_out_variable_benchmark.cs)
+[Benchmark code](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/inline_out_variable_benchmark.cs)
 
-[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/inline_out_variable_benchmark_IL)
+[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/inline_out_variable_benchmark_IL)
 
 ### Readability
 

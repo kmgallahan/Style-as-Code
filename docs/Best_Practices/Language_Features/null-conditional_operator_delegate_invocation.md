@@ -43,9 +43,9 @@ Both the Roslyn and .Net Core runtime teams agree that the null-conditional oper
 
 Note: there are no managed memory allocations, so this stat is omitted.
 
-[Benchmark program](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/null-conditional_operator_delegate_invocation_benchmark.cs)
+[Benchmark code](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/null-conditional_operator_delegate_invocation_benchmark.cs)
 
-[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/IL_Samples/null-conditional_operator_delegate_invocation_benchmark_IL)
+[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/null-conditional_operator_delegate_invocation_benchmark_IL)
 
 ### Readability
 
