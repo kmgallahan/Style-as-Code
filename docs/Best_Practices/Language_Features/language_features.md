@@ -1,7 +1,6 @@
 ---
 parent: Best Practices
 title: Language Features
-has_children: true
 nav_order: 1
 has_toc: false
 ---
