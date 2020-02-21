@@ -1,0 +1,205 @@
+.class public auto ansi beforefieldinit
+  NetCoreSandbox.Program
+    extends [System.Runtime]System.Object
+{
+
+  .class nested public sealed auto ansi
+    LoadStateEventHandler
+      extends [System.Runtime]System.MulticastDelegate
+  {
+
+    .method public hidebysig specialname rtspecialname instance void
+      .ctor(
+        object 'object',
+        native int 'method'
+      ) runtime managed
+    {
+      // Can't find a body
+    } // end of method LoadStateEventHandler::.ctor
+
+    .method public hidebysig virtual newslot instance void
+      Invoke() runtime managed
+    {
+      // Can't find a body
+    } // end of method LoadStateEventHandler::Invoke
+
+    .method public hidebysig virtual newslot instance class [System.Runtime]System.IAsyncResult
+      BeginInvoke(
+        class [System.Runtime]System.AsyncCallback callback,
+        object 'object'
+      ) runtime managed
+    {
+      // Can't find a body
+    } // end of method LoadStateEventHandler::BeginInvoke
+
+    .method public hidebysig virtual newslot instance void
+      EndInvoke(
+        class [System.Runtime]System.IAsyncResult result
+      ) runtime managed
+    {
+      // Can't find a body
+    } // end of method LoadStateEventHandler::EndInvoke
+  } // end of class LoadStateEventHandler
+
+  .field private class NetCoreSandbox.Program/LoadStateEventHandler LoadState
+  .custom instance void [System.Runtime]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()
+    = (01 00 00 00 )
+
+  .method public hidebysig specialname instance void
+    add_LoadState(
+      class NetCoreSandbox.Program/LoadStateEventHandler 'value'
+    ) cil managed
+  {
+    .custom instance void [System.Runtime]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 3
+    .locals init (
+      [0] class NetCoreSandbox.Program/LoadStateEventHandler V_0,
+      [1] class NetCoreSandbox.Program/LoadStateEventHandler V_1,
+      [2] class NetCoreSandbox.Program/LoadStateEventHandler V_2
+    )
+
+    IL_0000: ldarg.0      // this
+    IL_0001: ldfld        class NetCoreSandbox.Program/LoadStateEventHandler NetCoreSandbox.Program::LoadState
+    IL_0006: stloc.0      // V_0
+    // start of loop, entry point: IL_0007
+      IL_0007: ldloc.0      // V_0
+      IL_0008: stloc.1      // V_1
+      IL_0009: ldloc.1      // V_1
+      IL_000a: ldarg.1      // 'value'
+      IL_000b: call         class [System.Runtime]System.Delegate [System.Runtime]System.Delegate::Combine(class [System.Runtime]System.Delegate, class [System.Runtime]System.Delegate)
+      IL_0010: castclass    NetCoreSandbox.Program/LoadStateEventHandler
+      IL_0015: stloc.2      // V_2
+      IL_0016: ldarg.0      // this
+      IL_0017: ldflda       class NetCoreSandbox.Program/LoadStateEventHandler NetCoreSandbox.Program::LoadState
+      IL_001c: ldloc.2      // V_2
+      IL_001d: ldloc.1      // V_1
+      IL_001e: call         !!0/*class NetCoreSandbox.Program/LoadStateEventHandler*/ [System.Threading]System.Threading.Interlocked::CompareExchange<class NetCoreSandbox.Program/LoadStateEventHandler>(!!0/*class NetCoreSandbox.Program/LoadStateEventHandler*/&, !!0/*class NetCoreSandbox.Program/LoadStateEventHandler*/, !!0/*class NetCoreSandbox.Program/LoadStateEventHandler*/)
+      IL_0023: stloc.0      // V_0
+      IL_0024: ldloc.0      // V_0
+      IL_0025: ldloc.1      // V_1
+      IL_0026: bne.un.s     IL_0007
+    // end of loop
+    IL_0028: ret
+
+  } // end of method Program::add_LoadState
+
+  .method public hidebysig specialname instance void
+    remove_LoadState(
+      class NetCoreSandbox.Program/LoadStateEventHandler 'value'
+    ) cil managed
+  {
+    .custom instance void [System.Runtime]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 3
+    .locals init (
+      [0] class NetCoreSandbox.Program/LoadStateEventHandler V_0,
+      [1] class NetCoreSandbox.Program/LoadStateEventHandler V_1,
+      [2] class NetCoreSandbox.Program/LoadStateEventHandler V_2
+    )
+
+    IL_0000: ldarg.0      // this
+    IL_0001: ldfld        class NetCoreSandbox.Program/LoadStateEventHandler NetCoreSandbox.Program::LoadState
+    IL_0006: stloc.0      // V_0
+    // start of loop, entry point: IL_0007
+      IL_0007: ldloc.0      // V_0
+      IL_0008: stloc.1      // V_1
+      IL_0009: ldloc.1      // V_1
+      IL_000a: ldarg.1      // 'value'
+      IL_000b: call         class [System.Runtime]System.Delegate [System.Runtime]System.Delegate::Remove(class [System.Runtime]System.Delegate, class [System.Runtime]System.Delegate)
+      IL_0010: castclass    NetCoreSandbox.Program/LoadStateEventHandler
+      IL_0015: stloc.2      // V_2
+      IL_0016: ldarg.0      // this
+      IL_0017: ldflda       class NetCoreSandbox.Program/LoadStateEventHandler NetCoreSandbox.Program::LoadState
+      IL_001c: ldloc.2      // V_2
+      IL_001d: ldloc.1      // V_1
+      IL_001e: call         !!0/*class NetCoreSandbox.Program/LoadStateEventHandler*/ [System.Threading]System.Threading.Interlocked::CompareExchange<class NetCoreSandbox.Program/LoadStateEventHandler>(!!0/*class NetCoreSandbox.Program/LoadStateEventHandler*/&, !!0/*class NetCoreSandbox.Program/LoadStateEventHandler*/, !!0/*class NetCoreSandbox.Program/LoadStateEventHandler*/)
+      IL_0023: stloc.0      // V_0
+      IL_0024: ldloc.0      // V_0
+      IL_0025: ldloc.1      // V_1
+      IL_0026: bne.un.s     IL_0007
+    // end of loop
+    IL_0028: ret
+
+  } // end of method Program::remove_LoadState
+
+  .method public hidebysig static void
+    Main(
+      string[] args
+    ) cil managed
+  {
+    .entrypoint
+    .maxstack 8
+
+    // [14 4 - 14 55]
+    IL_0000: ldtoken      NetCoreSandbox.Program
+    IL_0005: call         class [System.Runtime]System.Type [System.Runtime]System.Type::GetTypeFromHandle(valuetype [System.Runtime]System.RuntimeTypeHandle)
+    IL_000a: ldnull
+    IL_000b: call         class [BenchmarkDotNet]BenchmarkDotNet.Reports.Summary [BenchmarkDotNet]BenchmarkDotNet.Running.BenchmarkRunner::Run(class [System.Runtime]System.Type, class [BenchmarkDotNet]BenchmarkDotNet.Configs.IConfig)
+    IL_0010: pop
+
+    // [15 3 - 15 4]
+    IL_0011: ret
+
+  } // end of method Program::Main
+
+  .method public hidebysig instance void
+    NoNullConditionalOperator() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 8
+
+    // [20 4 - 20 31]
+    IL_0000: ldarg.0      // this
+    IL_0001: ldfld        class NetCoreSandbox.Program/LoadStateEventHandler NetCoreSandbox.Program::LoadState
+    IL_0006: brfalse.s    IL_0013
+
+    // [22 5 - 22 22]
+    IL_0008: ldarg.0      // this
+    IL_0009: ldfld        class NetCoreSandbox.Program/LoadStateEventHandler NetCoreSandbox.Program::LoadState
+    IL_000e: callvirt     instance void NetCoreSandbox.Program/LoadStateEventHandler::Invoke()
+
+    // [24 3 - 24 4]
+    IL_0013: ret
+
+  } // end of method Program::NoNullConditionalOperator
+
+  .method public hidebysig instance void
+    NullConditionalOperator() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 8
+
+    // [29 4 - 29 29]
+    IL_0000: ldarg.0      // this
+    IL_0001: ldfld        class NetCoreSandbox.Program/LoadStateEventHandler NetCoreSandbox.Program::LoadState
+    IL_0006: dup
+    IL_0007: brtrue.s     IL_000b
+    IL_0009: pop
+    IL_000a: ret
+    IL_000b: callvirt     instance void NetCoreSandbox.Program/LoadStateEventHandler::Invoke()
+
+    // [30 3 - 30 4]
+    IL_0010: ret
+
+  } // end of method Program::NullConditionalOperator
+
+  .method public hidebysig specialname rtspecialname instance void
+    .ctor() cil managed
+  {
+    .maxstack 8
+
+    IL_0000: ldarg.0      // this
+    IL_0001: call         instance void [System.Runtime]System.Object::.ctor()
+    IL_0006: ret
+
+  } // end of method Program::.ctor
+
+  .event NetCoreSandbox.Program/LoadStateEventHandler LoadState
+  {
+    .addon instance void NetCoreSandbox.Program::add_LoadState(class NetCoreSandbox.Program/LoadStateEventHandler)
+    .removeon instance void NetCoreSandbox.Program::remove_LoadState(class NetCoreSandbox.Program/LoadStateEventHandler)
+  } // end of event Program::LoadState
+} // end of class NetCoreSandbox.Program

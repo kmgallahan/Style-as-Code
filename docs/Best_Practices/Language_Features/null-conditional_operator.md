@@ -1,7 +1,7 @@
 ---
 grand_parent: Best Practices
 parent: Language Features
-title: Null-conditional Operator | Simplify Delegate Invocation
+title: Null-conditional Operator
 nav_exclude: true
 ---
 
@@ -9,51 +9,10 @@ nav_exclude: true
 
 ## Recommendation
 
-The null-conditional operator should be used to simplify delegate invocation when possible.
+There are a variety of scenarios where the null-conditional operator can be used. Each presents a unique set of considerations, and is handled by its own analyzer.
 
-Use:
+---
 
-```cs
-this.LoadState?.Invoke(this, new LoadStateEventArgs(e.Parameter, null));
-```
-
-Not:
-
-```cs
-if (this.LoadState != null)
-{
-    this.LoadState(this, new LoadStateEventArgs(e.Parameter, null));
-}
-```
-
-When there is no addition branch logic to handle null cases.
-
-## Justification
-
-Both the Roslyn and .Net Core runtime teams agree that the null-conditional operator should be used to simplify delegate invocation.
-
-### Arguments
-
-### Performance
-
-### Readability
-
-Tends to remove:
-
-- A line dedicated to the null check
-- Two lines for braces
-- One level of indentation
-
-However, it does introduce a call to the `Invoke` method.
-
-## Exceptions
-
-## Analyzers
-
-| ID | Name | Value
-|:-|:-|:-|
-| IDE1005 | "Delegate invocation can be simplified"<br>csharp_style_conditional_delegate_call | true:suggestion |
-
-## Discussion
-
-[GitHub Discussion](https://github.com/kmgallahan/Style-as-Code/issues/6){: .btn .btn-purple }
+| Scenario | Rules
+|:-|:-|
+| [Simplify Delegate Invocation](null-conditional_operator_delegate_invocation.md) | IDE1005 |
