@@ -1,7 +1,6 @@
 ---
-grand_parent: Best Practices
-parent: Formatting
 title: Modifier Order
+nav_exclude: true
 ---
 
 ## Recommendation
