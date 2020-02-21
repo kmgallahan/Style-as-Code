@@ -2,6 +2,7 @@
 grand_parent: Best Practices
 parent: Language Features
 title: Inline Variable Declaration
+nav_exclude: true
 ---
 
 [Microsoft Docs / out Variables](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7#out-variables)

@@ -2,6 +2,7 @@
 grand_parent: Best Practices
 parent: Language Features
 title: Throw Expressions
+nav_exclude: true
 ---
 
 [Microsoft Docs / Throw Expressions](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/throw#the-throw-expression)

@@ -2,6 +2,7 @@
 grand_parent: Best Practices
 parent: Language Features
 title: Auto Properties
+nav_exclude: true
 ---
 
 [Microsoft Docs / Auto-implemented Properties](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)

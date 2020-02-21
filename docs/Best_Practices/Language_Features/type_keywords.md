@@ -2,6 +2,7 @@
 grand_parent: Best Practices
 parent: Language Features
 title: Type Keywords
+nav_exclude: true
 ---
 
 [Microsoft Docs / Types Keywords](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/built-in-types-table)

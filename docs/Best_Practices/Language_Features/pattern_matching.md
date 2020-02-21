@@ -2,6 +2,7 @@
 grand_parent: Best Practices
 parent: Language Features
 title: Pattern Matching
+nav_exclude: true
 ---
 
 ## Recommendation

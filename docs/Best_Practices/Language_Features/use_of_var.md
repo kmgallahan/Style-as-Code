@@ -2,6 +2,7 @@
 grand_parent: Best Practices
 parent: Language Features
 title: Use of var
+nav_exclude: true
 ---
 
 [Microsoft Docs / var Keyword](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/var)

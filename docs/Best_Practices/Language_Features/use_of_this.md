@@ -2,6 +2,7 @@
 grand_parent: Best Practices
 parent: Language Features
 title: Use of this.
+nav_exclude: true
 ---
 
 [Microsoft Docs / this Keyword](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/this)
