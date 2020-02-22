@@ -10,15 +10,16 @@ Pull request template that introduces a new EditorConfig rule and resolves its v
 This pull request introduces the EditorConfig rule:
 
 # $RULE_ID$: $RULE_DESCRIPTION$
-$RULE_PROPERTY$ : $RULE_VALUE$
 
-It also resolves $VIOLATION_COUNT# violations where the recommendation is to:
+Recommendation:
 
-$RULE_RECOMMENDATION$
+`$RULE_PROPERTY$ : $RULE_VALUE$`
 
-See the rationale for this rule here:
+> $RULE_RECOMMENDATION$
 
-https://styleascode.net/ID/$RULEID$
+Rationale: https://styleascode.net/ID/$RULEID$
+
+Instances resolved: $VIOLATION_COUNT$
 ```
 
 Example:
@@ -27,37 +28,42 @@ Example:
 This pull request introduces the EditorConfig rule:
 
 # IDE0007: Use var instead of explicit type when type is apparent
-csharp_style_var_when_type_is_apparent : true:suggestion
 
-It also resolves 14 violations where the recommendation is to:
+`csharp_style_var_when_type_is_apparent : true:suggestion`
 
-Use var when the type is already mentioned on the right-hand side of a declaration expression.
+Recommendation:
 
-See the rationale for this rule here:
+> Use var when the type is already mentioned on the right-hand side of a declaration expression.
 
-https://styleascode.net/ID/IDE0007
+Rationale: https://styleascode.net/ID/IDE0007
+
+Instances resolved: 14
 ```
 
 Note that multiple rules may be included in the same pull request if the total number of resolved violations is relatively small (<5 or so), and each rule is non-controversial. Example:
 
 ```
-Resolves 4 violations of rule IDE00?? where the recommendation is to:
+#IDE0018: Variable declaration can be inlined
 
-Always specify visibility, even if it's the default.
+Recommendation:
 
-See the rationale for this rule here:
+> `out` variables should be declared inline when possible.
 
-https://styleascode.net/ID/IDE00??
+Rationale: https://styleascode.net/ID/IDE0018
+
+Instances resolved: 6
 
 ---
 
-Resolves 2 violations of rule IDE0036 where the recommendation is to:
+#IDE1005: Delegate invocation can be simplified
 
-Respect the preferred modifier order.
+Recommendation:
 
-See the rationale for this rule here:
+> The null-conditional operator should be used to simplify delegate invocation when possible.
 
-https://styleascode.net/ID/IDE0036
+Rationale: https://styleascode.net/ID/IDE1005
+
+Instances resolved: 7
 ```
 
 ---
@@ -65,7 +71,7 @@ https://styleascode.net/ID/IDE0036
 Commit template for introducing a new rule:
 
 ```
-Introduces $RULE_PROPERTY$ : $RULE_VALUE$
+Introduces $RULE_PROPERTY$ : $RULE_VALUE$.
 ```
 
 Commit template for resolving a rule's violations (remember, one rule per commit):
