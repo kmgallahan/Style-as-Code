@@ -56,4 +56,4 @@ Using type names in classes that deal with interop is acceptable.
 
 ## Discussion
 
-[GitHub Discussion](){: .btn .btn-purple }
+[GitHub Discussion](https://github.com/kmgallahan/Style-as-Code/issues/8){: .btn .btn-purple }

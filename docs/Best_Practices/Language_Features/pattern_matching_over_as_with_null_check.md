@@ -10,7 +10,7 @@ title: Pattern Matching | Over as with null check
 
 ## Recommendation
 
-Use pattern matching with the *is expression* over an *as expression* with null.
+Use pattern matching with the *`is` expression* over the `as` operator with a null check.
 
 Use:
 
@@ -32,7 +32,7 @@ Both the Roslyn and .NET Core runtime teams agree that using this language featu
 
 ### Arguments
 
-#### Against using the `is` type pattern expression
+#### Against using the `is` type pattern expression:
 
 - Variable scope rules must be understood and considered when using this feature.
 - Requires knowledge of pattern matching
