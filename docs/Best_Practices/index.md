@@ -12,10 +12,10 @@ To that end, this repository provides the following information for a variety of
 
 * Recommendation
 * Justification
-* Arguments
+  * Arguments
+  * Performance
+  * Readability
 * Exceptions
-* Performance
-* Readability
 * Analyzers
 * Discussion
 
