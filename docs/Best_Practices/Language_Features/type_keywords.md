@@ -2,7 +2,6 @@
 grand_parent: Best Practices
 parent: Language Features
 title: Type Keywords
-nav_exclude: true
 ---
 
 [Microsoft Docs / Types Keywords](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/built-in-types-table)
@@ -15,17 +14,34 @@ Prefer the keyword whenever a member-access expression is used on a type with a 
 
 ## Justification
 
+Both the Roslyn and .NET Core runtime teams agree that using this language feature is desirable.
+
 The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/docs/coding-guidelines/coding-style.md) guidelines state:
 
 > We use language keywords instead of BCL types (e.g. `int, string, float` instead of `Int32, String, Single`, etc) for both type references as well as method calls (e.g. `int.Parse` instead of `Int32.Parse`).
 
 ### Arguments
 
+See [this discussion](https://github.com/dotnet/runtime/issues/13976) between members of the .NET team for reference.
+
 ### Performance
+
+|         Method |     Mean |   Error |  StdDev |
+|--------------- |---------:|--------:|--------:|
+| NoTypeKeywords | 205.3 ns | 1.38 ns | 1.16 ns |
+|   TypeKeywords | 207.8 ns | 4.04 ns | 3.96 ns |
+
+[Benchmark code](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/type_keywords_benchmark.cs)
+
+[Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/type_keywords_benchmark_IL)
 
 ### Readability
 
+Using type keywords promotes consistency in coding style. It otherwise does not have a significant impact on readability.
+
 ## Exceptions
+
+Using type names in classes that deal with interop is acceptable.
 
 ## Analyzers
 

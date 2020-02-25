@@ -1,0 +1,94 @@
+.class public auto ansi beforefieldinit
+  NetCoreSandbox.Program
+    extends [System.Runtime]System.Object
+{
+
+  .method public hidebysig static void
+    Main(
+      string[] args
+    ) cil managed
+  {
+    .entrypoint
+    .maxstack 8
+
+    // [11 4 - 11 55]
+    IL_0000: ldtoken      NetCoreSandbox.Program
+    IL_0005: call         class [System.Runtime]System.Type [System.Runtime]System.Type::GetTypeFromHandle(valuetype [System.Runtime]System.RuntimeTypeHandle)
+    IL_000a: ldnull
+    IL_000b: call         class [BenchmarkDotNet]BenchmarkDotNet.Reports.Summary [BenchmarkDotNet]BenchmarkDotNet.Running.BenchmarkRunner::Run(class [System.Runtime]System.Type, class [BenchmarkDotNet]BenchmarkDotNet.Configs.IConfig)
+    IL_0010: pop
+
+    // [12 3 - 12 4]
+    IL_0011: ret
+
+  } // end of method Program::Main
+
+  .method public hidebysig instance class [System.Runtime]System.Exception
+    NoIsExpression() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 1
+    .locals init (
+      [0] class [System.Runtime]System.Exception exception
+    )
+
+    // [17 4 - 17 52]
+    IL_0000: newobj       instance void [System.Runtime]System.ArgumentNullException::.ctor()
+
+    // [19 4 - 19 53]
+    IL_0005: stloc.0      // exception
+
+    // [21 4 - 21 26]
+    IL_0006: ldloc.0      // exception
+    IL_0007: brfalse.s    IL_000b
+
+    // [22 5 - 22 22]
+    IL_0009: ldloc.0      // exception
+    IL_000a: ret
+
+    // [24 4 - 24 27]
+    IL_000b: newobj       instance void [System.Runtime]System.Exception::.ctor()
+    IL_0010: ret
+
+  } // end of method Program::NoIsExpression
+
+  .method public hidebysig instance class [System.Runtime]System.Exception
+    IsExpression() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 1
+    .locals init (
+      [0] class [System.Runtime]System.Exception exception
+    )
+
+    // [30 4 - 30 52]
+    IL_0000: newobj       instance void [System.Runtime]System.ArgumentNullException::.ctor()
+
+    // [32 4 - 32 45]
+    IL_0005: stloc.0      // exception
+    IL_0006: ldloc.0      // exception
+    IL_0007: brfalse.s    IL_000b
+
+    // [33 5 - 33 22]
+    IL_0009: ldloc.0      // exception
+    IL_000a: ret
+
+    // [35 4 - 35 27]
+    IL_000b: newobj       instance void [System.Runtime]System.Exception::.ctor()
+    IL_0010: ret
+
+  } // end of method Program::IsExpression
+
+  .method public hidebysig specialname rtspecialname instance void
+    .ctor() cil managed
+  {
+    .maxstack 8
+
+    IL_0000: ldarg.0      // this
+    IL_0001: call         instance void [System.Runtime]System.Object::.ctor()
+    IL_0006: ret
+
+  } // end of method Program::.ctor
+} // end of class NetCoreSandbox.Program
