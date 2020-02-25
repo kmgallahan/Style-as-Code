@@ -6,8 +6,6 @@ title: Pattern Matching | Over as with null check
 
 [Microsoft Docs / The `is` type pattern expression](https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching#the-is-type-pattern-expression)
 
-
-
 ## Recommendation
 
 Use pattern matching with the *is expression* over the `as` operator with a null check.
