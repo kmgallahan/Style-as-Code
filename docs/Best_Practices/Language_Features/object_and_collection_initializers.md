@@ -46,15 +46,15 @@ Both the Roslyn and .Net Core runtime teams agree that object and collection ini
 
 ### Arguments
 
-✔ Prevents objects and collections from being accessed before all necessary elements are setup.
+✔ Prevents objects and collections from being accessed before all necessary elements added / set.
 
 ✔ Helps to ensure lines aren't misplaced during refactoring.
 
 ✔ Eliminates repetitive identifier usage (e.g. `cat.` and `cats.Add`).
 
-❌ 2 Braces-only lines must always be added, even for individual properties.
+❌ 2 Braces-only lines must always be added, even for individual elements.
 
-❌ Code blocks must be indented.
+❌ Introduces indentation for code blocks.
 
 ### Performance
 
