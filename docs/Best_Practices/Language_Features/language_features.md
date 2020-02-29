@@ -19,6 +19,7 @@ The C# version in which the feature was introduces is listed below for two reaso
 | [Inline variable declaration](inline_variable_declaration.md) | 7.0 | IDE0018 |
 | Null-conditional operator | 6 | IDE1005 |
 | [- With delegate invocation](null-conditional_operator_delegate_invocation.md) | 6 | IDE1005 |
+| [Object and collection initializers](object_and_collection_initializers.md) | 3 | IDE0017, IDE0028 |
 | Pattern matching | 7.0 - 8 | IDE0019 |
 | [- Over as with null check](pattern_matching_over_as_with_null_check.md) | 7.0 | IDE0019 |
 | [Throw expressions](throw_expressions.md) | 7.0 | IDE0016 |

@@ -4,7 +4,7 @@ parent: Language Features
 title: Pattern Matching | Over as with null check
 ---
 
-[Microsoft Docs / The `is` type pattern expression](https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching#the-is-type-pattern-expression)
+[Microsoft Docs / The `is` type pattern expression](https://docs.microsoft.com/dotnet/csharp/pattern-matching#the-is-type-pattern-expression)
 
 ## Recommendation
 
@@ -30,11 +30,13 @@ Both the Roslyn and .NET Core runtime teams agree that using this language featu
 
 ### Arguments
 
-#### Against using the `is` type pattern expression:
+✔ Tends to eliminate a line dedicated to using the as operator with a variable assignment.
 
-- Variable scope rules must be understood and considered when using this feature.
-- Requires knowledge of pattern matching
-- Only available in C# 7.0+
+✔ Potential 5-10% speed improvement.
+
+❌ Require an understanding variable scoping rules for if statements and how the *is expression* works.
+
+❌ Only available in C# 7.0+.
 
 ### Performance
 
@@ -47,10 +49,6 @@ Both the Roslyn and .NET Core runtime teams agree that using this language featu
 
 [Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/pattern_matching_over_as_with_null_check_benchmark_IL)
 
-### Readability
-
-- Tends to eliminate a line dedicated to using to the as operator with a variable assignment.
-- Does require the reader to understand variable scoping rules and how the *is expression* works.
 
 ## Exceptions
 

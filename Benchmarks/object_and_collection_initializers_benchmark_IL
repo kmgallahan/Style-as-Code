@@ -1,0 +1,172 @@
+.class public auto ansi beforefieldinit
+  NetCoreSandbox.Program
+    extends [System.Runtime]System.Object
+{
+
+  .method public hidebysig static void
+    Main(
+      string[] args
+    ) cil managed
+  {
+    .entrypoint
+    .maxstack 8
+
+    // [12 4 - 12 55]
+    IL_0000: ldtoken      NetCoreSandbox.Program
+    IL_0005: call         class [System.Runtime]System.Type [System.Runtime]System.Type::GetTypeFromHandle(valuetype [System.Runtime]System.RuntimeTypeHandle)
+    IL_000a: ldnull
+    IL_000b: call         class [BenchmarkDotNet]BenchmarkDotNet.Reports.Summary [BenchmarkDotNet]BenchmarkDotNet.Running.BenchmarkRunner::Run(class [System.Runtime]System.Type, class [BenchmarkDotNet]BenchmarkDotNet.Configs.IConfig)
+    IL_0010: pop
+
+    // [13 3 - 13 4]
+    IL_0011: ret
+
+  } // end of method Program::Main
+
+  .method public hidebysig instance class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>
+    NoCollectionInitializer() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 5
+
+    // [18 4 - 18 37]
+    IL_0000: newobj       instance void class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>::.ctor()
+
+    // [19 4 - 19 54]
+    IL_0005: dup
+    IL_0006: newobj       instance void NetCoreSandbox.Cat::.ctor()
+    IL_000b: dup
+    IL_000c: ldstr        "Sylvester"
+    IL_0011: callvirt     instance void NetCoreSandbox.Cat::set_Name(string)
+    IL_0016: dup
+    IL_0017: ldc.i4.8
+    IL_0018: callvirt     instance void NetCoreSandbox.Cat::set_Age(int32)
+    IL_001d: callvirt     instance void class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>::Add(!0/*class NetCoreSandbox.Cat*/)
+
+    // [20 4 - 20 53]
+    IL_0022: dup
+    IL_0023: newobj       instance void NetCoreSandbox.Cat::.ctor()
+    IL_0028: dup
+    IL_0029: ldstr        "Whiskers"
+    IL_002e: callvirt     instance void NetCoreSandbox.Cat::set_Name(string)
+    IL_0033: dup
+    IL_0034: ldc.i4.2
+    IL_0035: callvirt     instance void NetCoreSandbox.Cat::set_Age(int32)
+    IL_003a: callvirt     instance void class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>::Add(!0/*class NetCoreSandbox.Cat*/)
+
+    // [21 4 - 21 51]
+    IL_003f: dup
+    IL_0040: newobj       instance void NetCoreSandbox.Cat::.ctor()
+    IL_0045: dup
+    IL_0046: ldstr        "Sasha"
+    IL_004b: callvirt     instance void NetCoreSandbox.Cat::set_Name(string)
+    IL_0050: dup
+    IL_0051: ldc.i4.s     14 // 0x0e
+    IL_0053: callvirt     instance void NetCoreSandbox.Cat::set_Age(int32)
+    IL_0058: callvirt     instance void class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>::Add(!0/*class NetCoreSandbox.Cat*/)
+
+    // [23 4 - 23 16]
+    IL_005d: ret
+
+  } // end of method Program::NoCollectionInitializer
+
+  .method public hidebysig instance class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>
+    CollectionInitializer() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 5
+
+    // [29 4 - 34 6]
+    IL_0000: newobj       instance void class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>::.ctor()
+    IL_0005: dup
+    IL_0006: newobj       instance void NetCoreSandbox.Cat::.ctor()
+    IL_000b: dup
+    IL_000c: ldstr        "Sylvester"
+    IL_0011: callvirt     instance void NetCoreSandbox.Cat::set_Name(string)
+    IL_0016: dup
+    IL_0017: ldc.i4.8
+    IL_0018: callvirt     instance void NetCoreSandbox.Cat::set_Age(int32)
+    IL_001d: callvirt     instance void class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>::Add(!0/*class NetCoreSandbox.Cat*/)
+    IL_0022: dup
+    IL_0023: newobj       instance void NetCoreSandbox.Cat::.ctor()
+    IL_0028: dup
+    IL_0029: ldstr        "Whiskers"
+    IL_002e: callvirt     instance void NetCoreSandbox.Cat::set_Name(string)
+    IL_0033: dup
+    IL_0034: ldc.i4.2
+    IL_0035: callvirt     instance void NetCoreSandbox.Cat::set_Age(int32)
+    IL_003a: callvirt     instance void class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>::Add(!0/*class NetCoreSandbox.Cat*/)
+    IL_003f: dup
+    IL_0040: newobj       instance void NetCoreSandbox.Cat::.ctor()
+    IL_0045: dup
+    IL_0046: ldstr        "Sasha"
+    IL_004b: callvirt     instance void NetCoreSandbox.Cat::set_Name(string)
+    IL_0050: dup
+    IL_0051: ldc.i4.s     14 // 0x0e
+    IL_0053: callvirt     instance void NetCoreSandbox.Cat::set_Age(int32)
+    IL_0058: callvirt     instance void class [System.Collections]System.Collections.Generic.List`1<class NetCoreSandbox.Cat>::Add(!0/*class NetCoreSandbox.Cat*/)
+
+    // [36 4 - 36 16]
+    IL_005d: ret
+
+  } // end of method Program::CollectionInitializer
+
+  .method public hidebysig instance class NetCoreSandbox.Cat
+    NoObjectInitializer() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 8
+
+    // [42 4 - 42 24]
+    IL_0000: newobj       instance void NetCoreSandbox.Cat::.ctor()
+
+    // [43 4 - 43 17]
+    IL_0005: dup
+    IL_0006: ldc.i4.s     10 // 0x0a
+    IL_0008: callvirt     instance void NetCoreSandbox.Cat::set_Age(int32)
+
+    // [44 4 - 44 24]
+    IL_000d: dup
+    IL_000e: ldstr        "Fluffy"
+    IL_0013: callvirt     instance void NetCoreSandbox.Cat::set_Name(string)
+
+    // [46 4 - 46 15]
+    IL_0018: ret
+
+  } // end of method Program::NoObjectInitializer
+
+  .method public hidebysig instance class NetCoreSandbox.Cat
+    ObjectInitializer() cil managed
+  {
+    .custom instance void [BenchmarkDotNet.Annotations]BenchmarkDotNet.Attributes.BenchmarkAttribute::.ctor()
+      = (01 00 00 00 )
+    .maxstack 8
+
+    // [52 4 - 56 6]
+    IL_0000: newobj       instance void NetCoreSandbox.Cat::.ctor()
+    IL_0005: dup
+    IL_0006: ldc.i4.s     10 // 0x0a
+    IL_0008: callvirt     instance void NetCoreSandbox.Cat::set_Age(int32)
+    IL_000d: dup
+    IL_000e: ldstr        "Fluffy"
+    IL_0013: callvirt     instance void NetCoreSandbox.Cat::set_Name(string)
+
+    // [58 4 - 58 15]
+    IL_0018: ret
+
+  } // end of method Program::ObjectInitializer
+
+  .method public hidebysig specialname rtspecialname instance void
+    .ctor() cil managed
+  {
+    .maxstack 8
+
+    IL_0000: ldarg.0      // this
+    IL_0001: call         instance void [System.Runtime]System.Object::.ctor()
+    IL_0006: ret
+
+  } // end of method Program::.ctor
+} // end of class NetCoreSandbox.Program

@@ -5,7 +5,7 @@ title: Null-conditional Operator | Simplify Delegate Invocation
 nav_exclude: true
 ---
 
-[Microsoft Docs / Null-conditional operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-)
+[Microsoft Docs / Null-conditional operator](https://docs.microsoft.com/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-)
 
 ## Recommendation
 
