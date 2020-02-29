@@ -31,14 +31,17 @@ Both the Roslyn and .Net Core runtime teams agree that this language feature sho
 
 ### Arguments
 
-For using inlined `out` variable declarations
+✔ Variable declaration occurs closer to where it will be used.
 
-- The code is easier to read; you declare the out variable where you use it, not on another line above.
-- No need to assign an initial value; by declaring the `out` variable where it's used in a method call, you can't accidentally use it before it is assigned.
+✔ No need to assign an initial value.
+
+✔ By declaring the `out` variable where it's used in a method call you can't accidentally use it before it is assigned.
+
+✔ Typically eliminates one line of code used to declare the variable elsewhere, and one blank line.
 
 ### Performance
 
-The same IL is generated, regardless of if the out variable is declared inline or not.
+The same IL is generated regardless of if the out variable is declared inline or not.
 
 |                          Method |     Mean |     Error |    StdDev |
 |-------------------------------- |---------:|----------:|----------:|
@@ -47,15 +50,9 @@ The same IL is generated, regardless of if the out variable is declared inline o
 |   OutVariableNonEmptyDictionary | 6.308 ns | 0.0890 ns | 0.0789 ns |
 |      OutVariableEmptyDictionary | 2.932 ns | 0.0843 ns | 0.0747 ns |
 
-Note: there are no managed memory allocations, so this stat is omitted.
-
 [Benchmark code](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/inline_out_variable_benchmark.cs)
 
 [Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/inline_out_variable_benchmark_IL)
-
-### Readability
-
-Typically eliminates one line of code used to declare the variable elsewhere, and one blank line.
 
 ## Exceptions
 

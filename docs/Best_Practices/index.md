@@ -14,7 +14,6 @@ To that end, this repository provides the following information for a variety of
 * Justification
   * Arguments
   * Performance
-  * Readability
 * Exceptions
 * Analyzers
 * Discussion

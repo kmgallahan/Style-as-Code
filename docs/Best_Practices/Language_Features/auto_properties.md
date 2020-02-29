@@ -46,8 +46,6 @@ In cases where no logic is present, including getters and setters is simply addi
 
 ### Performance
 
-### Readability
-
 ## Exceptions
 
 ## Analyzers

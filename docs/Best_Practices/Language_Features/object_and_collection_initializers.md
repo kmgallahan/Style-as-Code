@@ -48,7 +48,9 @@ Both the Roslyn and .Net Core runtime teams agree that object and collection ini
 
 ✔ Prevents objects and collections from being accessed before all necessary elements are setup.
 
-✔ Ensures assignments aren't misplaced during refactoring.
+✔ Helps to ensure lines aren't misplaced during refactoring.
+
+✔ Eliminates repetitive identifier usage (e.g. `cat.` and `cats.Add`).
 
 ❌ 2 Braces-only lines must always be added, even for individual properties.
 

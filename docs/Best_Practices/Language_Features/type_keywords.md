@@ -24,6 +24,8 @@ The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/do
 
 See [this discussion](https://github.com/dotnet/runtime/issues/13976) between members of the .NET team for reference.
 
+✔ Promotes consistency in coding style.
+
 ### Performance
 
 |         Method |     Mean |   Error |  StdDev |
@@ -34,10 +36,6 @@ See [this discussion](https://github.com/dotnet/runtime/issues/13976) between me
 [Benchmark code](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/type_keywords_benchmark.cs)
 
 [Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/type_keywords_benchmark_IL)
-
-### Readability
-
-Using type keywords promotes consistency in coding style. It otherwise does not have a significant impact on readability.
 
 ## Exceptions
 

@@ -27,8 +27,6 @@ The .NET Runtime Coding Style guidelines state:
 
 ### Performance
 
-### Readability
-
 ### Exceptions
 
 The .NET Runtime Coding Style guidelines state:

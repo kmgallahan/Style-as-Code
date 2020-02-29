@@ -15,8 +15,6 @@ nav_exclude: true
 
 ### Performance
 
-### Readability
-
 ## Exceptions
 
 ## Analyzers

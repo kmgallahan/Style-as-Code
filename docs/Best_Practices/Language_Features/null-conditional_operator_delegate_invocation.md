@@ -34,6 +34,12 @@ Both the Roslyn and .Net Core runtime teams agree that the null-conditional oper
 
 ### Arguments
 
+✔ Tends to eliminate a line dedicated to the null check, two lines for braces, and a level of indentation.
+
+✔ Can introduce a significant performance improvement.
+
+❌ Introduces a call to the `Invoke` method.
+
 ### Performance
 
 |                    Method |      Mean |     Error |    StdDev |    Median |
@@ -46,16 +52,6 @@ Note: there are no managed memory allocations, so this stat is omitted.
 [Benchmark code](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/null-conditional_operator_delegate_invocation_benchmark.cs)
 
 [Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/null-conditional_operator_delegate_invocation_benchmark_IL)
-
-### Readability
-
-Tends to remove:
-
-- A line dedicated to the null check
-- Two lines for braces
-- One level of indentation
-
-However, it does introduce a call to the `Invoke` method.
 
 ## Exceptions
 

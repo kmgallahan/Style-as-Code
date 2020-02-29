@@ -32,9 +32,11 @@ Both the Roslyn and .NET Core runtime teams agree that using this language featu
 
 ### Arguments
 
-#### Against using throw expressions for null checks
+✔ Typically reduces 3-5 lines of code down to 1.
 
-* Only available in C# 7+
+❌ Line length does increase with a chance of exceeding 80-120 characters.
+
+❌ Only available in C# 7+
 
 ### Performance
 
@@ -48,11 +50,6 @@ Note: there are no managed memory allocations, so this stat is omitted.
 [Benchmark code](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/throw_expression_benchmark.cs)
 
 [Benchmark IL](https://github.com/kmgallahan/Style-as-Code/blob/master/Benchmarks/throw_expression_benchmark_IL)
-
-### Readability
-
-* Typically reduces 3-5 lines of code down to 1
-* Line length does increase with a chance of exceeding 80-120 characters
 
 ## Exceptions
 

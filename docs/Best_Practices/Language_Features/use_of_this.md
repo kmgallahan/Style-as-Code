@@ -54,8 +54,6 @@ Examples of where using `this.` is necessary[^1]:
 
 There is no difference in performance when using `this.`, as it is removed by the compiler.
 
-### Readability
-
 ## Exceptions
 
 ## Analyzers

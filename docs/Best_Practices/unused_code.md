@@ -18,8 +18,6 @@ Regarding **IDE0060: Remove unused parameters**: event handlers attached through
 
 ### Performance
 
-### Readability
-
 ## Exceptions
 
 ## Analyzers

@@ -41,8 +41,6 @@ The [.NET Runtime Coding Style](https://github.com/dotnet/runtime/blob/master/do
 
 ### Performance
 
-### Readability
-
 ## Exceptions
 
 ## Analyzers

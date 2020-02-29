@@ -12,8 +12,6 @@ title:
 
 ### Performance
 
-### Readability
-
 ## Exceptions
 
 ## Analyzers
